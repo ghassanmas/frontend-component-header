@@ -96,6 +96,26 @@ const messages = defineMessages({
     defaultMessage: 'Skip to main content',
     description: 'A link used by screen readers to allow users to skip to the main content of the page.',
   },
+  "header.links.about": {
+    id: "header.links.about",
+    defaultMessage: "About"
+  },
+  "header.links.coursesOrganizations": {
+    id: "header.links.coursesOrganizations",
+    defaultMessage: "Our courses",
+  },
+  "header.links.support": {
+    id: "header.links.support",
+    defaultMessage: "Support Us",
+  },
+  "header.links.library": {
+    id: "header.links.library",
+    defaultMessage: "Library",
+  },
+  "header.links.contactUs": {
+    id: "header.links.contactUs",
+    defaultMessage: "Contact US",
+  }
 });
 
 export default messages;

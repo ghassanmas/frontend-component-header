@@ -22,6 +22,7 @@ ensureConfig([
   'SITE_NAME',
   'LOGO_URL',
   'ORDER_HISTORY_URL',
+  'WORDPRESS_ROOT'
 ], 'Header component');
 
 subscribe(APP_CONFIG_INITIALIZED, () => {
@@ -32,6 +33,7 @@ subscribe(APP_CONFIG_INITIALIZED, () => {
 
 function Header({ intl }) {
   const { authenticatedUser, config } = useContext(AppContext);
+  //console.log("config",config)
 
   const mainMenu = [
     {
@@ -39,6 +41,28 @@ function Header({ intl }) {
       href: `${config.LMS_BASE_URL}/dashboard`,
       content: intl.formatMessage(messages['header.links.courses']),
     },
+    {
+      type: 'item',
+      href: `${process.env.WORDPRESS_ROOT}/about`,
+      content: intl.formatMessage(messages['header.links.about']),
+    },
+    {
+      type: 'item',
+      href: `${process.env.WORDPRESS_ROOT}/library`,
+      content: intl.formatMessage(messages['header.links.library']),
+    },
+    {
+      type: 'item',
+      href: `${process.env.WORDPRESS_ROOT}/supportus`,
+      content: intl.formatMessage(messages['header.links.support']),
+    },
+    {
+      type: 'item',
+      href: `${process.env.WORDPRESS_ROOT}/contact`,
+      content: intl.formatMessage(messages['header.links.contactUs']),
+    },
+
+
   ];
 
   const orderHistoryItem = {
