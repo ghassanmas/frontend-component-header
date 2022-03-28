@@ -6,6 +6,7 @@ import { getConfig } from '@edx/frontend-platform';
 import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import { Dropdown } from '@edx/paragon';
 import messages from './messages';
+import sharedMessages from '../Header.messages';
 
 function AuthenticatedUserDropdown(_ref) {
   var intl = _ref.intl,
@@ -13,10 +14,38 @@ function AuthenticatedUserDropdown(_ref) {
   var dashboardMenuItem = /*#__PURE__*/React.createElement(Dropdown.Item, {
     href: "".concat(getConfig().LMS_BASE_URL, "/dashboard")
   }, intl.formatMessage(messages.dashboard));
+  var mainMenu = [{
+    type: 'item',
+    href: "".concat(getConfig().LMS_BASE_URL, "/dashboard"),
+    content: intl.formatMessage(sharedMessages['header.links.courses'])
+  }, {
+    type: 'item',
+    href: "".concat(process.env.WORDPRESS_ROOT, "/about"),
+    content: intl.formatMessage(sharedMessages['header.links.about'])
+  }, {
+    type: 'item',
+    href: "".concat(process.env.WORDPRESS_ROOT, "/library"),
+    content: intl.formatMessage(sharedMessages['header.links.library'])
+  }, {
+    type: 'item',
+    href: "".concat(process.env.WORDPRESS_ROOT, "/supportus"),
+    content: intl.formatMessage(sharedMessages['header.links.support'])
+  }, {
+    type: 'item',
+    href: "".concat(process.env.WORDPRESS_ROOT, "/contact"),
+    content: intl.formatMessage(sharedMessages['header.links.contactUs'])
+  }];
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("a", {
     className: "text-gray-700 mr-3",
     href: "".concat(getConfig().SUPPORT_URL)
-  }, intl.formatMessage(messages.help)), /*#__PURE__*/React.createElement(Dropdown, {
+  }, intl.formatMessage(messages.help)), mainMenu.map(function (_ref2) {
+    var href = _ref2.href,
+        content = _ref2.content;
+    return /*#__PURE__*/React.createElement("a", {
+      className: "text-gray-700 mr-3",
+      href: href
+    }, content);
+  }), /*#__PURE__*/React.createElement(Dropdown, {
     className: "user-dropdown"
   }, /*#__PURE__*/React.createElement(Dropdown.Toggle, {
     variant: "outline-primary"
