@@ -23505,7 +23505,10 @@ msgid ""
 "To protect your account, it’s been temporarily locked. Try again in "
 "{locked_out_period} minutes.{li_start}To be on the safe side, you can reset "
 "your password {link_start}here{link_end} before you try again."
-msgstr "כדי להגן על החשבון שלך, הוא ננעל זמנית. "
+msgstr ""
+"כדי להגן על החשבון שלך, הוא ננעל זמנית. "
+"{locked_out_period} דקות.{li_start}ליתר ביטחון, אתה יכול לאפס את "
+"הסיסמה שלך {link_start}כאן{link_end} לפני שתנסה שוב."
 
 #: openedx/core/djangoapps/user_authn/views/login.py
 msgid "Too many failed login attempts. Try again later."
