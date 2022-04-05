@@ -13264,7 +13264,7 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "To protect your account, it’s been temporarily locked. Try again in "
-"{locked_out_period} minutes. {li_start} To be on the safe side, you can reset "
+"{locked_out_period} minutes. To be on the safe side, you can reset "
 "your password {link_start}here{link_end} before you try again."
 msgstr "כדי להגן על החשבון שלך, הוא ננעל זמנית. "
 
