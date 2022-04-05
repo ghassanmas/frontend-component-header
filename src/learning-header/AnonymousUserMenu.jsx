@@ -6,8 +6,39 @@ import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import { Button } from '@edx/paragon';
 
 import genericMessages from '../generic/messages';
+import sharedMessages from '../Header.messages'
 
 function AnonymousUserMenu({ intl }) {
+  const mainMenu = [
+    {
+      type: 'item',
+      href: `${getConfig().LMS_BASE_URL}/dashboard`,
+      content: intl.formatMessage(sharedMessages['header.links.courses']),
+    },
+    {
+      type: 'item',
+      href: `${process.env.WORDPRESS_ROOT}/about`,
+      content: intl.formatMessage(sharedMessages['header.links.about']),
+    },
+    {
+      type: 'item',
+      href: `${process.env.WORDPRESS_ROOT}/library`,
+      content: intl.formatMessage(sharedMessages['header.links.library']),
+    },
+    {
+      type: 'item',
+      href: `${process.env.WORDPRESS_ROOT}/supportus`,
+      content: intl.formatMessage(sharedMessages['header.links.support']),
+    },
+    {
+      type: 'item',
+      href: `${process.env.WORDPRESS_ROOT}/contact`,
+      content: intl.formatMessage(sharedMessages['header.links.contactUs']),
+    },
+
+
+  ];
+
   return (
     <div>
       <Button
@@ -23,6 +54,11 @@ function AnonymousUserMenu({ intl }) {
       >
         {intl.formatMessage(genericMessages.signInSentenceCase)}
       </Button>
+      {mainMenu.map(({href,content})=>{
+    <a className="text-gray-700 mr-3" href={href}>{content}</a>
+
+      })}
+
     </div>
   );
 }

@@ -9,7 +9,7 @@ import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import { Dropdown } from '@edx/paragon';
 
 import messages from './messages';
-
+import messagesCommon from '../Header.messages'
 function AuthenticatedUserDropdown({ intl, username }) {
   const dashboardMenuItem = (
     <Dropdown.Item href={`${getConfig().LMS_BASE_URL}/dashboard`}>
@@ -19,7 +19,7 @@ function AuthenticatedUserDropdown({ intl, username }) {
 
   return (
     <>
-      <a className="text-gray-700 mr-3" href={`${getConfig().SUPPORT_URL}`}>{intl.formatMessage(messages.help)}</a>
+      <a className="text-gray-700 mr-3" href={`${getConfig().SUPPORT_URL}`}>{intl.formatMessage(messagesCommon['header.links.support'])}</a>
       <Dropdown className="user-dropdown">
         <Dropdown.Toggle variant="outline-primary">
           <FontAwesomeIcon icon={faUserCircle} className="d-md-none" size="lg" />
