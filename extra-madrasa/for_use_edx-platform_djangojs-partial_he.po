@@ -1,0 +1,5308 @@
+# edX translation file.
+# Copyright (C) 2022 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# Anna Lifshits Agmon <anna@campus.gov.il>, 2018-2019
+# Bentsi Magidovich <magidovich@gmail.com>, 2015
+# dana bublil <dana.bublil@gmail.com>, 2016
+# Danit Keren <danitK@mse.gov.il>, 2019
+# dotan laks <dotanlaks6@gmail.com>, 2014
+# dotan laks <dotanlaks6@gmail.com>, 2014
+# e2f_HE c1 <e2f_HE_c1@outlook.com>, 2016-2017
+# da4b3b3e32ebb4f0ec5430359fde7fbb, 2016
+# Hodaya Zada <hodayaz@mse.gov.il>, 2019,2021
+# Lee <leer@mse.gov.il>, 2019
+# Naaman nov <naaman.nov@gmail.com>, 2015
+# Nadav Stark <nadav@yeda.org.il>, 2015
+# Ned Batchelder <ned@edx.org>, 2016
+# qualityalltext <quality@alltext.co.il>, 2016-2017
+# Ron Rozen <Ronrozen@gmail.com>, 2016
+# Shay Nativ <shay@yeda.org.il>, 2015
+# yaaqov, 2014
+# Yaniv Gershon <gershon.yaniv@gmail.com>, 2022
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2022
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2022-04-03 20:43+0000\n"
+"PO-Revision-Date: 2013-07-16 17:33+0000\n"
+"Last-Translator: Yaniv Gershon <gershon.yaniv@gmail.com>, 2022\n"
+"Language-Team: Hebrew (http://www.transifex.com/open-edx/edx-platform/language/he/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
+
+#: cms/static/cms/js/main.js:38
+#: cms/static/js/views/active_video_upload_list.js:35
+#: cms/static/js/views/video_transcripts.js:33
+#: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js:40
+msgid ""
+"This may be happening because of an error with our server or your internet "
+"connection. Try refreshing the page or making sure you are online."
+msgstr "ייתכן שמדובר בתקלה בשרת שלנו או בחיבור האינטרנט שלכם. נסו לרענן את הדף או לוודא שאתם מחובר לאינטרנט."
+
+#: cms/static/cms/js/xblock/cms.runtime.v1.js:113
+#: cms/static/js/certificates/views/signatory_details.js:71
+#: cms/static/js/models/section.js:27 cms/static/js/utils/drag_and_drop.js:292
+#: cms/static/js/views/asset.js:83 cms/static/js/views/container.js:48
+#: cms/static/js/views/course_info_handout.js:57
+#: cms/static/js/views/course_info_update.js:169
+#: cms/static/js/views/edit_textbook.js:62
+#: cms/static/js/views/list_item_editor.js:41
+#: cms/static/js/views/modals/edit_xblock.js:189
+#: cms/static/js/views/tabs.js:85 cms/static/js/views/tabs.js:117
+#: cms/static/js/views/utils/xblock_utils.js:204
+#: cms/static/js/views/utils/xblock_utils.js:219
+#: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js:26
+#: lms/static/js/ccx/schedule.js:256 lms/static/js/views/fields.js:71
+msgid "Saving"
+msgstr "שומר"
+
+#: cms/static/js/certificates/views/signatory_editor.js:139
+#: cms/static/js/views/asset.js:55 cms/static/js/views/list_item.js:60
+#: cms/static/js/views/manage_users_and_roles.js:31
+#: cms/static/js/views/show_textbook.js:39
+#: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:36
+msgid "Delete"
+msgstr "מחק"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/certificates/views/signatory_editor.js:161
+#: cms/static/js/views/asset.js:71
+#: cms/static/js/views/course_info_update.js:266
+#: cms/static/js/views/export.js:360
+#: cms/static/js/views/manage_users_and_roles.js:32
+#: cms/static/js/views/modals/base_modal.js:136
+#: cms/static/js/views/modals/course_outline_modals.js:217
+#: cms/static/js/views/modals/course_outline_modals.js:258
+#: cms/static/js/views/show_textbook.js:53 cms/static/js/views/tabs.js:187
+#: cms/static/js/views/validation.js:126
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:310
+#: common/static/common/js/components/utils/view_utils.js:68
+#: lms/static/js/Markdown.Editor.js:1089
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:190
+msgid "Cancel"
+msgstr "ביטול"
+
+#. Translators: This is the status of an active video upload
+#: cms/static/js/models/active_video_upload.js:11
+#: cms/static/js/views/assets.js:237 cms/static/js/views/video_thumbnail.js:57
+#: lms/static/js/views/image_field.js:20
+msgid "Uploading"
+msgstr "מעלה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/active_video_upload.js:46
+#: cms/static/js/views/modals/edit_xblock.js:124
+#: cms/static/js/views/video_transcripts.js:325
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:360
+#: lms/static/js/demographics_collection/Wizard.jsx:74
+#: lms/static/js/student_account/tos_modal.js:48
+msgid "Close"
+msgstr "סגור"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/assets.js:110
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:830
+msgid "Name"
+msgstr "שם"
+
+#: cms/static/js/views/assets.js:257 lms/static/js/Markdown.Editor.js:1090
+msgid "Choose File"
+msgstr "בחר קובץ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/course_info_update.js:240
+#: cms/static/js/views/tabs.js:163
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:875
+#: lms/static/js/Markdown.Editor.js:1088
+msgid "OK"
+msgstr "בסדר"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/course_video_settings.js:263
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:860
+msgid "None"
+msgstr "אף אחד"
+
+#: cms/static/js/views/course_video_settings.js:471
+#: cms/static/js/views/metadata.js:332
+#: cms/static/js/views/previous_video_upload.js:78
+#: cms/static/js/views/video_transcripts.js:270
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:96
+#: lms/static/js/views/image_field.js:18
+msgid "Remove"
+msgstr "הסר"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/manage_users_and_roles.js:10
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:870
+msgid "Ok"
+msgstr "בסדר"
+
+#: cms/static/js/views/manage_users_and_roles.js:12
+#: lms/static/js/instructor_dashboard/util.js:165
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: cms/static/js/views/manage_users_and_roles.js:29
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:130
+msgid "Are you sure?"
+msgstr "האם אתה בטוח?"
+
+#: cms/static/js/views/metadata.js:584 lms/static/js/views/file_uploader.js:47
+msgid "Upload File"
+msgstr "העלה קובץ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/modals/base_modal.js:45
+#: cms/static/js/views/modals/course_outline_modals.js:257
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1030
+msgid "Save"
+msgstr "שמור"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/modals/course_outline_modals.js:1213
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:220
+msgid "Advanced"
+msgstr "מתקדם"
+
+#: cms/static/js/views/previous_video_upload.js:81
+#: cms/static/js/views/video/translations_editor.js:176
+#: cms/static/js/views/video_transcripts.js:273
+#: lms/static/js/views/image_field.js:21
+msgid "Removing"
+msgstr "מסיר"
+
+#: cms/static/js/views/validation.js:145
+#: lms/static/js/discussions_management/views/divided_discussions_course_wide.js:75
+#: lms/static/js/discussions_management/views/divided_discussions_inline.js:142
+#: lms/static/js/views/fields.js:72
+msgid "Your changes have been saved."
+msgstr "השינויים נשמרו"
+
+#. Translators: This message will be added to the front of messages of type
+#. warning,
+#. e.g. "Warning: this component has not been configured yet".
+#: cms/static/js/views/xblock_validation.js:50
+#: common/static/common/js/discussion/views/discussion_inline_view.js:201
+msgid "Warning"
+msgstr "אזהרה"
+
+#. Translators: This message will be added to the front of messages of type
+#. error,
+#. e.g. "Error: required field is missing".
+#: cms/static/js/views/xblock_validation.js:54
+#: common/static/common/js/discussion/utils.js:204
+#: common/static/common/js/discussion/utils.js:241
+#: common/static/common/js/discussion/views/discussion_inline_view.js:209
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:324
+#: common/static/common/js/discussion/views/discussion_thread_view.js:220
+#: common/static/common/js/discussion/views/discussion_thread_view.js:225
+#: common/static/common/js/discussion/views/discussion_thread_view.js:230
+#: common/static/common/js/discussion/views/response_comment_view.js:119
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:28
+#: lms/static/js/student_account/views/FinishAuthView.js:80
+#: lms/static/js/verify_student/views/step_view.js:50
+#: lms/static/js/views/fields.js:42
+msgid "Error"
+msgstr "שגיאה"
+
+#: common/lib/xmodule/xmodule/assets/library_content/public/js/library_content_edit.js:18
+#: common/lib/xmodule/xmodule/js/public/js/library_content_edit.js:18
+msgid "Updating with latest library content"
+msgstr "מעדכן עם התוכן העדכני ביותר"
+
+#: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx:175
+#: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx:189
+msgid "Loading..."
+msgstr "טוען..."
+
+#: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx:193
+msgid "Selected blocks"
+msgstr "בלוקים נבחרים"
+
+#: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js:50
+msgid "Unable to update settings"
+msgstr "לא ניתן לעדכן הגדרות"
+
+#: common/lib/xmodule/xmodule/assets/split_test/public/js/split_test_author_view.js:12
+#: common/lib/xmodule/xmodule/js/public/js/split_test_author_view.js:12
+msgid "Creating missing groups"
+msgstr "יצירה של קבוצות חסרות"
+
+#: common/lib/xmodule/xmodule/assets/word_cloud/src/js/word_cloud_main.js:248
+msgid "{start_strong}{total}{end_strong} words submitted in total."
+msgstr "{start_strong}{total}{end_strong} סך כל המילים שנשלחו."
+
+#: common/lib/xmodule/xmodule/assets/word_cloud/src/js/word_cloud_main.js:274
+msgid "text_word_{uniqueId} title_word_{uniqueId}"
+msgstr "text_word_{uniqueId} title_word_{uniqueId}"
+
+#: common/lib/xmodule/xmodule/assets/word_cloud/src/js/word_cloud_main.js:283
+msgid "title_word_{uniqueId}"
+msgstr "title_word_{uniqueId}"
+
+#: common/lib/xmodule/xmodule/assets/word_cloud/src/js/word_cloud_main.js:303
+msgid "text_word_{uniqueId}"
+msgstr "text_word_{uniqueId}"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js:283
+msgid "Show Annotations"
+msgstr "הצג הסבר"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js:285
+msgid "Hide Annotations"
+msgstr "הסתר הסברים"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js:300
+msgid "Expand Instructions"
+msgstr "הרחב הנחיות"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js:302
+msgid "Collapse Instructions"
+msgstr "כווץ הנחיות"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js:392
+msgid "Commentary"
+msgstr "הערות"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js:404
+msgid "Reply to Annotation"
+msgstr "השב להסבר"
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:234
+msgid "{num_points} point possible (graded, results hidden)"
+msgid_plural "{num_points} points possible (graded, results hidden)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:241
+msgid "{num_points} point possible (ungraded, results hidden)"
+msgid_plural "{num_points} points possible (ungraded, results hidden)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:252
+msgid "{num_points} point possible (graded)"
+msgid_plural "{num_points} points possible (graded)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:258
+msgid "{num_points} point possible (ungraded)"
+msgid_plural "{num_points} points possible (ungraded)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:268
+msgid "{earned}/{possible} point (graded)"
+msgid_plural "{earned}/{possible} points (graded)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:275
+msgid "{earned}/{possible} point (ungraded)"
+msgid_plural "{earned}/{possible} points (ungraded)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:347
+msgid "The grading process is still running. Refresh the page to see updates."
+msgstr "תהליך הדירוג ממשיך לפעול. רענן את הדף כדי לראות עדכונים."
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:454
+msgid "Could not grade your answer. The submission was aborted."
+msgstr "לא ניתן לדרג את התשובה. ההגשה בוטלה."
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:518
+msgid ""
+"Submission aborted! Sorry, your browser does not support file uploads. If "
+"you can, please use Chrome or Safari which have been verified to support "
+"file uploads."
+msgstr "ההגשה בוטלה! מצטערים, הדפדפן שלך אינו תומך בהעלאות קבצים. אם ניתן, השתמש בדפדפן Chrome או Safari שניתן בוודאות להעלות דרכם קבצים."
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:544
+msgid "You submitted {filename}; only {allowedFiles} are allowed."
+msgstr "הגשת את {filename}; מותרים רק {allowedFiles}."
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:557
+msgid "Your file {filename} is too large (max size: {maxSize}MB)."
+msgstr "הקובץ {filename} גדול מדי (גודל מרבי: {maxSize}MB)."
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:573
+msgid "You did not submit the required files: {requiredFiles}."
+msgstr "לא הגשת את הקבצים הדרושים: {requiredFiles}."
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:583
+msgid "You did not select any files to submit."
+msgstr "לא בחרת אף קובץ להגשה."
+
+#. Translators: This is only translated to allow for reordering of label and
+#. associated status.;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:677
+msgid "{label}: {status}"
+msgstr "{label}: {status}"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:708
+msgid "This problem has been reset."
+msgstr "הבעיה לא אותחלה."
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:1011
+msgid "unsubmitted"
+msgstr "לא הוגש"
+
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:142
+msgid ""
+"{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6"
+msgstr ""
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:144
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:885
+msgid "Paragraph"
+msgstr "פסקה"
+
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:145
+msgid "Preformatted"
+msgstr "פורמט מקדים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:146
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:635
+msgid "Heading 3"
+msgstr "כותרת 3"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:147
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:640
+msgid "Heading 4"
+msgstr "כותרת 4"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:148
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:645
+msgid "Heading 5"
+msgstr "כותרת 5"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:149
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:650
+msgid "Heading 6"
+msgstr "כותרת 6"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:215
+msgid "Add to Dictionary"
+msgstr "הוסף למילון"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:225
+msgid "Align center"
+msgstr "ישר למרכז"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:230
+msgid "Align left"
+msgstr "ישר לשמאל"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:235
+msgid "Align right"
+msgstr "ישר לימין"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:240
+msgid "Alignment"
+msgstr "יישור"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:245
+msgid "Alternative source"
+msgstr "מקור חלופי"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:250
+msgid "Anchor"
+msgstr "עוגן"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:255
+msgid "Anchors"
+msgstr "עוגנים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:260
+msgid "Author"
+msgstr "מחבר"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:265
+msgid "Background color"
+msgstr "צבע הרקע"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:270
+#: lms/static/js/Markdown.Editor.js:1840
+msgid "Blockquote"
+msgstr "Blockquote"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:275
+msgid "Blocks"
+msgstr "בלוקים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:280
+msgid "Body"
+msgstr "גוף"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:285
+msgid "Bold"
+msgstr "מודגש"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:290
+msgid "Border color"
+msgstr "צבע גבול"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:295
+msgid "Border"
+msgstr "גבול"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:300
+msgid "Bottom"
+msgstr "תחתית"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:305
+msgid "Bullet list"
+msgstr "רשימה עם תבליטים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:315
+msgid "Caption"
+msgstr "כתוביות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:320
+msgid "Cell padding"
+msgstr "ריווח תא"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:325
+msgid "Cell properties"
+msgstr "מאפייני התא"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:330
+msgid "Cell spacing"
+msgstr "ריווח תא"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:335
+msgid "Cell type"
+msgstr "סוג התא"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:340
+msgid "Cell"
+msgstr "תא"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:345
+msgid "Center"
+msgstr "מרכז"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:350
+msgid "Circle"
+msgstr "מעגל"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:355
+msgid "Clear formatting"
+msgstr "נקה פורמט"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#. Translators: this is a toolbar button tooltip from the raw HTML editor
+#. displayed in the browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:365
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1241
+msgid "Code block"
+msgstr "בלוק קוד"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:370
+msgid "Code"
+msgstr "קוד"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:375
+msgid "Color"
+msgstr "צבע"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:380
+msgid "Cols"
+msgstr "עמודות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:385
+msgid "Column group"
+msgstr "קבוצת עמודות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:390
+msgid "Column"
+msgstr "עמודה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:395
+msgid "Constrain proportions"
+msgstr "אלץ פרופורציות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:400
+msgid "Copy row"
+msgstr "העתק שורה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:405
+msgid "Copy"
+msgstr "העתק"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:410
+msgid "Could not find the specified string."
+msgstr "לא ניתן היה לאתר את המחרוזת המדויקת"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:415
+msgid "Custom color"
+msgstr "צבע מותאם אישית"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:420
+msgid "Custom..."
+msgstr "התאם אישית"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:425
+msgid "Cut row"
+msgstr "גזור שורה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:430
+msgid "Cut"
+msgstr "גזור"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:435
+msgid "Decrease indent"
+msgstr "הקטן הזחה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:440
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:445
+msgid "Delete column"
+msgstr "מחק טור"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:450
+msgid "Delete row"
+msgstr "מחק שורה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:455
+msgid "Delete table"
+msgstr "מחק טבלה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:460
+msgid "Description"
+msgstr "תיאור"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:465
+msgid "Dimensions"
+msgstr "ממדים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:470
+msgid "Disc"
+msgstr "Disc"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:475
+msgid "Div"
+msgstr "Div"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:480
+msgid "Document properties"
+msgstr "מאפייני המסמך"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:485
+msgid "Edit HTML"
+msgstr "ערוך HTML"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:490
+msgid "Edit"
+msgstr "ערוך"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:495
+msgid "Embed"
+msgstr "הטמעה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:500
+msgid "Emoticons"
+msgstr "אמוטקינים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:505
+msgid "Encoding"
+msgstr "קידוד"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:510
+msgid "File"
+msgstr "קובץ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:515
+msgid "Find and replace"
+msgstr "מצא והחלף"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:520
+msgid "Find next"
+msgstr "מצא את הבא"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:525
+msgid "Find previous"
+msgstr "מצא את הקודם"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:530
+msgid "Find"
+msgstr "חיפוש"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:535
+msgid "Finish"
+msgstr "סיום"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:540
+msgid "Font Family"
+msgstr "קבוצת גופנים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:545
+msgid "Font Sizes"
+msgstr "גודל גופן"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:550
+msgid "Footer"
+msgstr "כותרת תחתונה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:555
+msgid "Format"
+msgstr "פורמט"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:560
+msgid "Formats"
+msgstr "פורמטים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:565
+msgid "Fullscreen"
+msgstr "מסך מלא"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:570
+msgid "General"
+msgstr "כללי"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:575
+msgid "H Align"
+msgstr "יישור אופקי"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:580
+msgid "Header 1"
+msgstr "כותרת 1"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:585
+msgid "Header 2"
+msgstr "כותרת 2"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:590
+msgid "Header 3"
+msgstr "כותרת 3"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:595
+msgid "Header 4"
+msgstr "כותרת 4"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:600
+msgid "Header 5"
+msgstr "כותרת 5"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:605
+msgid "Header 6"
+msgstr "כותרת 6"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:610
+msgid "Header cell"
+msgstr "כותרת תא"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:615
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:49
+msgid "Header"
+msgstr "כותרת"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:620
+msgid "Headers"
+msgstr "כותרות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:625
+msgid "Heading 1"
+msgstr "כותרת 1"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:630
+msgid "Heading 2"
+msgstr "כותרת 2"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:655
+msgid "Headings"
+msgstr "כותרות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:660
+msgid "Height"
+msgstr "גובה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:665
+msgid "Horizontal line"
+msgstr "קו אופקי"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:670
+msgid "Horizontal space"
+msgstr "רווח אופקי"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:675
+msgid "HTML source code"
+msgstr "קוד מקור HTML"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:680
+msgid "Ignore all"
+msgstr "התעלם מהכל"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:685
+msgid "Ignore"
+msgstr "התעלם"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:690
+msgid "Image description"
+msgstr "תיאור תמונה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:695
+msgid "Increase indent"
+msgstr "הגדל כניסה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:700
+msgid "Inline"
+msgstr "בשורה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:705
+msgid "Insert column after"
+msgstr "הכנס טור לאחר"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:710
+msgid "Insert column before"
+msgstr "הכנס טור לפני"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:715
+msgid "Insert date/time"
+msgstr "הכנס תאריך/זמן"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:720
+msgid "Insert image"
+msgstr "הכנס תמונה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:725
+msgid "Insert link"
+msgstr "הכנס קישור"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:730
+msgid "Insert row after"
+msgstr "הכנס שורה לאחר"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:735
+msgid "Insert row before"
+msgstr "הכנס שורה לפני"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:740
+msgid "Insert table"
+msgstr "הכנס טבלה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:745
+msgid "Insert template"
+msgstr "הכנס תבנית"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:750
+msgid "Insert video"
+msgstr "הכנס סרטון וידאו"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:755
+msgid "Insert"
+msgstr "הכנס"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:760
+msgid "Insert/edit image"
+msgstr "הכנס/ערוך תמונה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:765
+msgid "Insert/edit link"
+msgstr "הכנס/ערוך קישור"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:770
+msgid "Insert/edit video"
+msgstr "הכנס/ערוך סרטון וידאו"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:775
+msgid "Italic"
+msgstr "נטוי"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:780
+msgid "Justify"
+msgstr "יישור"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:785
+msgid "Keywords"
+msgstr "מילות מפתח"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:790
+msgid "Left to right"
+msgstr "שמאל לימין"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:795
+msgid "Left"
+msgstr "שמאל"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:800
+msgid "Lower Alpha"
+msgstr "אותיות קטנות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:805
+msgid "Lower Greek"
+msgstr "אותיות יווניות קטנות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:810
+msgid "Lower Roman"
+msgstr "אותיות רומיות קטנות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:815
+msgid "Match case"
+msgstr "התאמה של אותיות קטנות וגדולות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:820
+msgid "Merge cells"
+msgstr "מזג תאים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:825
+msgid "Middle"
+msgstr "חטיבת ביניים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:835
+msgid "New document"
+msgstr "מסמך חדש"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:840
+msgid "New window"
+msgstr "חלון חדש"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:845
+#: lms/static/js/demographics_collection/Wizard.jsx:114
+msgid "Next"
+msgstr "הבא"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:850
+msgid "No color"
+msgstr "ללא צבע"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:855
+msgid "Nonbreaking space"
+msgstr "ללא מרווחים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:865
+msgid "Numbered list"
+msgstr "רשימה ממוספרת"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:880
+msgid "Page break"
+msgstr "מעבר עמוד"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:890
+msgid "Paste as text"
+msgstr "הדבק כטקסט"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:895
+msgid ""
+"Paste is now in plain text mode. Contents will now be pasted as plain text "
+"until you toggle this option off."
+msgstr "פעולת הדבק נמצאת כרגע במצב plain text. טקסט יודבק כ-plain text עד שאפרות הזאת תתבטל."
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:900
+msgid "Paste row after"
+msgstr "הדבק שורה אחרי"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:905
+msgid "Paste row before"
+msgstr "הדבק שורה לפני"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:910
+msgid "Paste your embed code below:"
+msgstr "הכנס קוד הטבעה למטה:"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:915
+msgid "Paste"
+msgstr "הדבק"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:920
+msgid "Poster"
+msgstr "פוסטר"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:925
+msgid "Pre"
+msgstr "קדם"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:930
+msgid "Prev"
+msgstr "תצוגה מקדימה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:935
+#: lms/static/js/customwmd.js:190
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:940
+msgid "Print"
+msgstr "הדפס"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:945
+msgid "Redo"
+msgstr "בצע שוב"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:950
+msgid "Remove link"
+msgstr "הסר קישור"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:955
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:960
+msgid "Replace all"
+msgstr "החלף הכל"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:965
+msgid "Replace with"
+msgstr "החלף ב"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:970
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:975
+msgid "Replace"
+msgstr "החלף"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:980
+msgid "Restore last draft"
+msgstr "שחזר טיוטה אחרונה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:985
+msgid ""
+"Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press "
+"ALT-0 for help"
+msgstr "אזור טקסט עשיר. לחץ על ALT-F9 לתפריטים. לחץ על ALT-F10 לסרגל כלים. לחץ ALT-0 לעזרה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:990
+msgid "Right to left"
+msgstr "מימין לשמאל"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:995
+msgid "Right"
+msgstr "ימין"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1000
+msgid "Robots"
+msgstr "רובוטים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1005
+msgid "Row group"
+msgstr "קבוצת שורה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1010
+msgid "Row properties"
+msgstr "תכונות שורה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1015
+msgid "Row type"
+msgstr "סוג שורה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1020
+msgid "Row"
+msgstr "שורה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1025
+msgid "Rows"
+msgstr "שורות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1035
+msgid "Scope"
+msgstr "תחום"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1040
+msgid "Select all"
+msgstr "בחר הכל"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1045
+msgid "Show blocks"
+msgstr "הראה בלוקים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1050
+msgid "Show invisible characters"
+msgstr "הראה תווים מוסתרים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1055
+msgid "Source code"
+msgstr "קוד מקור"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1060
+msgid "Source"
+msgstr "מקור"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1065
+msgid "Special character"
+msgstr "תו מיוחד"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1070
+msgid "Spellcheck"
+msgstr "בדיקת איות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1075
+msgid "Split cell"
+msgstr "פצל תא"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1080
+msgid "Square"
+msgstr "ריבועי"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1085
+msgid "Start search"
+msgstr "התחל חיפוש"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1090
+msgid "Strikethrough"
+msgstr "קו חוצה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1095
+msgid "Style"
+msgstr "סגנון"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1100
+msgid "Subscript"
+msgstr "כתב תחתי"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1105
+msgid "Superscript"
+msgstr "כתב עילי"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1110
+msgid "Table properties"
+msgstr "מאפייני טבלה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1115
+msgid "Table"
+msgstr "טבלה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1120
+msgid "Target"
+msgstr "יעד"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1125
+msgid "Templates"
+msgstr "תבניות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1130
+msgid "Text color"
+msgstr "צבע הטקסט"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1135
+msgid "Text to display"
+msgstr "טקסט להצגה"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1140
+msgid ""
+"The URL you entered seems to be an email address. Do you want to add the "
+"required mailto: prefix?"
+msgstr "נראה שכתובת ה-URL שהכנסת היא כתובת דואר אלקטרוני. האם ברצונך להוסיף תחילית mailto:?"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1145
+msgid ""
+"The URL you entered seems to be an external link. Do you want to add the "
+"required http:// prefix?"
+msgstr "נדמה שכתובת ה-URL שהכנסת הוא קישור חיצוני. האם ברצונך להוסיף תחילית //:http?"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1150
+msgid "Title"
+msgstr "כותרת"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1155
+msgid "Tools"
+msgstr "כלים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1160
+msgid "Top"
+msgstr "עליון"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1165
+msgid "Underline"
+msgstr "קו תחתון"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1170
+msgid "Undo"
+msgstr "בטל"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1175
+msgid "Upper Alpha"
+msgstr "אותיות גדולות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1180
+msgid "Upper Roman"
+msgstr "אותויות רומיות גדולות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1185
+msgid "Url"
+msgstr "כתובת Url"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1190
+msgid "V Align"
+msgstr "יישור אנכי"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1195
+msgid "Vertical space"
+msgstr "מרווח אנכי"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1200
+msgid "View"
+msgstr "הצג"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1205
+msgid "Visual aids"
+msgstr "עזרים ויזואלים"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1210
+msgid "Whole words"
+msgstr "התאמה ללא חשיבות לגודל האותיות"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1215
+msgid "Width"
+msgstr "רוחב"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1220
+msgid "Words: {0}"
+msgstr "מילים: {0}"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1225
+msgid "You have unsaved changes are you sure you want to navigate away?"
+msgstr "ישנם שינויים שלא נשמרו, האם אתה בטוח שאתה רוצה לעזוב?"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1230
+msgid ""
+"Your browser doesn't support direct access to the clipboard. Please use the "
+"Ctrl+X/C/V keyboard shortcuts instead."
+msgstr "הדפדפן בו אתה משתמש אינו תומך בגישה ישירה ללוח ההדבקה. אנא השתמש במקום זה בקיצורי המקלדת Ctrl+X/C/V. "
+
+#. Translators: this is a toolbar button tooltip from the raw HTML editor
+#. displayed in the browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1252
+msgid "Insert/Edit Image"
+msgstr "הוספת/עריכת תמונה"
+
+#: common/lib/xmodule/xmodule/js/src/lti/lti.js:20
+msgid ""
+"Click OK to have your username and e-mail address sent to a 3rd party application.\n"
+"\n"
+"Click Cancel to return to this page without sending your information."
+msgstr "לחץ 'אישור' כדי לאשר ששם המשתמש שלך וכתובת הדואר האלקטרונית שלך יועברו לאפליקציה צד 3.\n\nלחץ על 'ביטול' כדי לחזור לעמוד זה מבלי שהמידע האישי שלך ישלח. "
+
+#: common/lib/xmodule/xmodule/js/src/lti/lti.js:22
+msgid ""
+"Click OK to have your username sent to a 3rd party application.\n"
+"\n"
+"Click Cancel to return to this page without sending your information."
+msgstr "לחץ 'אישור' כדי לאשר ששם המשתמש שלך יועבר לאפליקציה צד 3. \n\nלחץ על 'ביטול' כדי לחזור לעמוד זה מבלי שהמידע האישי שלך ישלח. "
+
+#: common/lib/xmodule/xmodule/js/src/lti/lti.js:24
+msgid ""
+"Click OK to have your e-mail address sent to a 3rd party application.\n"
+"\n"
+"Click Cancel to return to this page without sending your information."
+msgstr "לחץ 'אישור' כדי לאשר שכתובת הדואר האלקטרוני שלך תועבר לאפליקציה צד 3. \n\nלחץ על 'ביטול' כדי לחזור לעמוד זה מבלי שהמידע האישי שלך ישלח. "
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:34
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:46
+msgid "incorrect"
+msgstr "לא נכון"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:34
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:37
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:46
+msgid "correct"
+msgstr "נכון"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:40
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:43
+msgid "answer"
+msgstr "תשובה"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:52
+msgid "Short explanation"
+msgstr "הסבר קצר"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:119
+msgid ""
+"If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
+"\n"
+"Proceed to the Advanced Editor and convert this problem to XML?"
+msgstr "במידה ואתה משתמש בעורך מתקדם, בעיה זו תומר לפורמט XML ולא תוכל לחזור לממשק של עורך פשוט.\n\nהאם להמשיך לעורך מתקדם ולהמיר את הבעיה ל-XML?"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:406
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:441
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:504
+msgid ""
+"An answer option has been left blank. Please review and edit the component."
+msgstr ""
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:732
+msgid "Explanation"
+msgstr "הסבר"
+
+#: common/lib/xmodule/xmodule/js/src/sequence/display.js:331
+msgid ""
+"Sequence error! Cannot navigate to %(tab_name)s in the current "
+"SequenceModule. Please contact the course staff."
+msgstr "שגיאת המשכיות! אינו יכול לעבור ל-%(tab_name)s במודול נוכחי. אנא צור קשר עם צוות הקורס."
+
+#: common/lib/xmodule/xmodule/js/src/sequence/display.js:446
+#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
+msgid "Bookmarked"
+msgstr "מסומן בסימניה"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:14
+#: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js:29
+#: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js:87
+#: common/lib/xmodule/xmodule/js/src/video/09_play_skip_control.js:29
+msgid "Play"
+msgstr "נגן"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:15
+#: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js:77
+msgid "Pause"
+msgstr "השהה"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:16
+msgid "Mute"
+msgstr "השתק"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:17
+msgid "Unmute"
+msgstr "בטל השתקה"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:18
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:208
+msgid "Exit full browser"
+msgstr "צא מדפדפן מלא"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:19
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:6
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:8
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:185
+msgid "Fill browser"
+msgstr "מלא דפדפן"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:20
+#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js:45
+msgid "Speed"
+msgstr "מהירות"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:21
+#: common/lib/xmodule/xmodule/js/src/video/08_video_auto_advance_control.js:39
+msgid "Auto-advance"
+msgstr "התקדמות אוטומטית"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:22
+#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:71
+msgid "Volume"
+msgstr "עוצמת הקול"
+
+#. Translators: Volume level equals 0%.
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:24
+msgid "Muted"
+msgstr "מושתק"
+
+#. Translators: Volume level in range ]0,20]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:26
+msgid "Very low"
+msgstr "נמוך מאד"
+
+#. Translators: Volume level in range ]20,40]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:28
+msgid "Low"
+msgstr "נמוך"
+
+#. Translators: Volume level in range ]40,60]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:30
+msgid "Average"
+msgstr "ממוצע"
+
+#. Translators: Volume level in range ]60,80]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:32
+msgid "Loud"
+msgstr "רועש"
+
+#. Translators: Volume level in range ]80,99]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:34
+msgid "Very loud"
+msgstr "רועש מאד"
+
+#. Translators: Volume level equals 100%.
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:36
+msgid "Maximum"
+msgstr "מקסימום"
+
+#: common/lib/xmodule/xmodule/js/src/video/02_html5_video.js:87
+msgid "This browser cannot play .mp4, .ogg, or .webm files."
+msgstr "דפדפן זה אינו יכול לנגן קבצי  ogg  .webm ,.mp4."
+
+#: common/lib/xmodule/xmodule/js/src/video/02_html5_video.js:88
+msgid "Try using a different browser, such as Google Chrome."
+msgstr "נסה להשתמש בדפדפן אחר כגון גוגל כרום."
+
+#: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js:23
+msgid "High Definition"
+msgstr "איכות גבוהה"
+
+#: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js:24
+#: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js:156
+msgid "off"
+msgstr "כבוי"
+
+#: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js:150
+msgid "on"
+msgstr "פועל"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:16
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:107
+msgid "Video position. Press space to toggle playback"
+msgstr "מיקום הסרטון. רווח מפסיק/ממשיך נגינה"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:304
+msgid "Video ended"
+msgstr "סרטון הווידאו הסתיים"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:308
+msgid "Video position"
+msgstr "מיקום סרטון הווידאו"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:323
+msgid "%(value)s hour"
+msgid_plural "%(value)s hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:326
+msgid "%(value)s minute"
+msgid_plural "%(value)s minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:329
+msgid "%(value)s second"
+msgid_plural "%(value)s seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:69
+msgid ""
+"Click on this button to mute or unmute this video or press UP or DOWN "
+"buttons to increase or decrease volume level."
+msgstr "לחץ על לחצן זה כדי להשתיק או לבטל השתקה של סרטון וידאו זה או לחץ על המקשים למעלה או למטה כדי להגביר או להנמיך את רמת הקול. "
+
+#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:70
+msgid "Adjust video volume"
+msgstr "התאם את עוצמת הקול של סרטון הווידאו"
+
+#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js:35
+msgid ""
+"Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
+"navigate the different speeds, then press ENTER to change to the selected "
+"speed."
+msgstr "לחץ על מקש החץ 'למעלה' כדי להיכנס לתפריט המהירות, ולאחר מכן השתמש במקשי החצים למעלה ולמטה כדי לנווט בין המהירויות השונות. לחץ על ENTER כדי לשנות למהירות שנבחרה."
+
+#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js:39
+msgid "Adjust video speed"
+msgstr "התאם את מהירות סרטון הווידאו"
+
+#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js:269
+msgid "Video speed: "
+msgstr "מהירות סרטון הווידאו:"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_play_skip_control.js:78
+msgid "Skip"
+msgstr "דלג"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_poster.js:30
+msgid "Play video"
+msgstr "נגן סרטון וידאו"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_skip_control.js:32
+msgid "Do not show again"
+msgstr "אל תציג שוב"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:105
+msgid "Open language menu"
+msgstr "פתח תפריט שפה"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:559
+msgid "Transcript will be displayed when you start playing the video."
+msgstr "תמלול יוצג כאשר תתחיל בהפעלת סרטון הווידאו."
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:807
+msgid ""
+"Activating a link in this group will skip to the corresponding point in the "
+"video."
+msgstr "הפעלת קישור בקבוצה הזו תוביל ישירות לנקודה המקבילה בסרטון הווידאו."
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:810
+msgid "Video transcript"
+msgstr "תמלול סרטון וידאו"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:813
+msgid "Start of transcript. Skip to the end."
+msgstr "התחלת התמלול. דלג לסוף."
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:817
+msgid "End of transcript. Skip to the start."
+msgstr "סוף התמלול. דלג להתחלה."
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:821
+msgid ""
+"Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
+" keys to navigate language options. Press ENTER to change to the selected "
+"language."
+msgstr "לחץ על מקש החץ למעלה כדי להיכנס לתפריט השפה ולאחר מכן השתמש במקשי החצים למעלה ולמטה כדי לנווט בין אפשרויות השפה. לחץ על ENTER כדי לשנות לשפה שנבחרה."
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1173
+msgid "Hide closed captions"
+msgstr "הסתר כתוביות"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1191
+msgid "(Caption will be displayed when you start playing the video.)"
+msgstr "(כתוביות יוצגו כאשר תפעיל את סרטון הווידאו)."
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1198
+msgid "Turn on closed captioning"
+msgstr "הפעל כתוביות"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1304
+msgid "Turn on transcripts"
+msgstr "הפעל תמלילים"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1317
+msgid "Turn off transcripts"
+msgstr "כבה תמלילים"
+
+#: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx:10
+msgid "View child items"
+msgstr "הצגת פריטים צאצאים"
+
+#: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx:17
+msgid "Navigate up"
+msgstr "לנווט למעלה"
+
+#: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx:82
+msgid "Browsing"
+msgstr ""
+
+#: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx:89
+msgid "Select"
+msgstr "בחר"
+
+#: common/static/common/js/components/utils/view_utils.js:230
+msgid "Required field."
+msgstr "שדה חובה"
+
+#: common/static/common/js/components/utils/view_utils.js:244
+msgid "Please do not use any spaces in this field."
+msgstr "אנא אל תשתמש ברווחים בשדה זה."
+
+#: common/static/common/js/components/utils/view_utils.js:248
+msgid "Please do not use any spaces or special characters in this field."
+msgstr "אנא אל תשתמש ברווחים או בתווים מיוחדים בשדה זה."
+
+#: common/static/common/js/components/views/paginated_view.js:47
+#: common/static/common/js/components/views/paging_footer.js:21
+msgid "Pagination"
+msgstr "עימוד"
+
+#: common/static/common/js/components/views/paginated_view.js:75
+msgid ""
+"Your request could not be completed. Reload the page and try again. If the "
+"issue persists, click the Help tab to report the problem."
+msgstr "לא ניתן להשלים את בקשתך. טען מחדש את הדף ונסה שוב. אם הבעיה נמשכת, לחץ על הלשונית 'עזרה' כדי לדווח על הבעיה."
+
+#: common/static/common/js/components/views/paging_header.js:37
+msgid "Showing {firstIndex} out of {numItems} total"
+msgstr "מציג {firstIndex} מתוך {numItems} סך הכל"
+
+#: common/static/common/js/components/views/paging_header.js:42
+msgid "Showing {firstIndex}-{lastIndex} out of {numItems} total"
+msgstr "מציג {firstIndex}-{lastIndex} מתוך {numItems} סך הכל"
+
+#: common/static/common/js/discussion/utils.js:148
+msgid "Loading content"
+msgstr "טוען תוכן"
+
+#: common/static/common/js/discussion/utils.js:205
+msgid "Your request could not be processed. Refresh the page and try again."
+msgstr "לא ניתן לעבד את בקשתך. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/utils.js:477
+#: common/static/common/js/discussion/utils.js:500
+msgid "…"
+msgstr "..."
+
+#: common/static/common/js/discussion/utils.js:513
+msgid "Some images in this post have been omitted"
+msgstr "חלק מהתמונות בפוסט זה נמחקו"
+
+#: common/static/common/js/discussion/utils.js:519
+msgid "image omitted"
+msgstr "התמונה נמחקה"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:280
+msgid "there is currently {numVotes} vote"
+msgid_plural "there are currently {numVotes} votes"
+msgstr[0] "כרגע יש קול {numVotes}"
+msgstr[1] "כרגע יש {numVotes} קולות"
+msgstr[2] "כרגע יש {numVotes} קולות"
+msgstr[3] "כרגע יש {numVotes} קולות"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:286
+msgid "{numVotes} Vote"
+msgid_plural "{numVotes} Votes"
+msgstr[0] "קול {numVotes}"
+msgstr[1] "{numVotes} קולות"
+msgstr[2] "{numVotes} קולות"
+msgstr[3] "{numVotes} קולות"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:354
+msgid ""
+"You could not be subscribed to this post. Refresh the page and try again."
+msgstr "לא ניתן לרשום אותך לפוסט. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:356
+msgid ""
+"You could not be unsubscribed from this post. Refresh the page and try "
+"again."
+msgstr "לא ניתן לבטל את הרישום שלך לפוסט. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:383
+msgid ""
+"This response could not be marked as an answer. Refresh the page and try "
+"again."
+msgstr "לא ניתן לסמן את התגובה הזו בתור תשובה. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:385
+msgid ""
+"This response could not be unmarked as an answer. Refresh the page and try "
+"again."
+msgstr "לא ניתן לבטל את סימון התגובה הזו בתור תשובה. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:389
+msgid ""
+"This response could not be marked as endorsed. Refresh the page and try "
+"again."
+msgstr "לא ניתן לסמן את התגובה הזו בתור מומלצת. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:391
+msgid "This response could not be unendorsed. Refresh the page and try again."
+msgstr "לא ניתן לבטל את סימון התגובה הזו בתור מומלצת. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:423
+msgid "This vote could not be processed. Refresh the page and try again."
+msgstr "לא ניתן לעבד את הבקשה. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:439
+msgid "This post could not be pinned. Refresh the page and try again."
+msgstr "לא ניתן להצמיד את הפוסט. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:441
+msgid "This post could not be unpinned. Refresh the page and try again."
+msgstr "לא ניתן לבטל את הצמדת הפוסט. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:457
+msgid ""
+"This post could not be flagged for abuse. Refresh the page and try again."
+msgstr "לא ניתן לדווח על הפוסט כבלתי הולם. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:460
+msgid ""
+"This post could not be unflagged for abuse. Refresh the page and try again."
+msgstr "לא ניתן לבטל את הדיווח על הפוסט כבלתי הולם. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:480
+msgid "This post could not be closed. Refresh the page and try again."
+msgstr "לא ניתן לסגור את הפוסט. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:482
+msgid "This post could not be reopened. Refresh the page and try again."
+msgstr "לא ניתן לפתוח מחדש את הפוסט. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_inline_view.js:183
+msgid "Show Discussion"
+msgstr "הראה דיון"
+
+#: common/static/common/js/discussion/views/discussion_inline_view.js:193
+#: common/static/common/js/discussion/views/discussion_inline_view.js:232
+msgid "Hide Discussion"
+msgstr "הסתר דיון"
+
+#: common/static/common/js/discussion/views/discussion_inline_view.js:210
+msgid "This discussion could not be loaded. Refresh the page and try again."
+msgstr "לא ניתן להעלות את הדיון. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:228
+msgid "There are no posts in this topic yet."
+msgstr "עדיין אין פוסטים בנושא הזה."
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:273
+msgid "Loading more threads"
+msgstr "טוען עוד שרשורים"
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:325
+msgid "Additional posts could not be loaded. Refresh the page and try again."
+msgstr "לא ניתן להעלות פוסטים נוספים. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:390
+msgid "Current conversation"
+msgstr "שיחה נוכחית"
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:508
+msgid "Loading posts list"
+msgstr "טוען רשימת פוסטים"
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:527
+msgid ""
+"No results found for {original_query}. Showing results for "
+"{suggested_query}."
+msgstr "לא נמצאו תוצאות עבור {original_query}. מראה תוצאות עבור {suggested_query}."
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:546
+msgid "No posts matched your query."
+msgstr "לא נמצאו פוסטים התואמים את השאילתא שלך."
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:584
+msgid "Show posts by {username}."
+msgstr "הראה פוסטים של {username}."
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:221
+msgid "The post you selected has been deleted."
+msgstr "הפוסט שבחרת נמחק."
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:226
+msgid "Responses could not be loaded. Refresh the page and try again."
+msgstr "לא ניתן להעלות תגובות. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:231
+msgid ""
+"Additional responses could not be loaded. Refresh the page and try again."
+msgstr "לא ניתן להעלות תגובות נוספות. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:248
+msgid "{numResponses} other response"
+msgid_plural "{numResponses} other responses"
+msgstr[0] "תגובה נוספת {numResponses}"
+msgstr[1] "{numResponses} תגובות נוספות"
+msgstr[2] "{numResponses} תגובות נוספות"
+msgstr[3] "{numResponses} תגובות נוספות"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:255
+msgid "{numResponses} response"
+msgid_plural "{numResponses} responses"
+msgstr[0] "תגובה {numResponses}"
+msgstr[1] "{numResponses} תגובות"
+msgstr[2] "{numResponses} תגובות"
+msgstr[3] "{numResponses} תגובות"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:267
+msgid "Showing all responses"
+msgstr "מראה את כל התגובות "
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:271
+msgid "Showing first response"
+msgid_plural "Showing first {numResponses} responses"
+msgstr[0] "מציג תגובה ראשונה"
+msgstr[1] "מציג {numResponses} תגובות ראשונות"
+msgstr[2] "מציג {numResponses} תגובות ראשונות"
+msgstr[3] "מציג {numResponses} תגובות ראשונות"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:284
+msgid "Load all responses"
+msgstr "טען את כל התגובות"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:287
+msgid "Load next {numResponses} responses"
+msgstr "טען את {numResponses} התגובות הבאות"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:456
+msgid "Are you sure you want to delete this post?"
+msgstr "האם אתה בטוח שאתה רוצה למחוק פוסט זה?"
+
+#: common/static/common/js/discussion/views/new_post_view.js:244
+msgid "Your post will be discarded."
+msgstr "הפוסט שלך יבוטל."
+
+#: common/static/common/js/discussion/views/response_comment_show_view.js:58
+msgid "anonymous"
+msgstr "אנונימי"
+
+#: common/static/common/js/discussion/views/response_comment_view.js:104
+msgid "Are you sure you want to delete this comment?"
+msgstr "האם אתה בטוח שאתה מעוניין למחוק תגובה זו?"
+
+#: common/static/common/js/discussion/views/response_comment_view.js:120
+msgid "This comment could not be deleted. Refresh the page and try again."
+msgstr "לא ניתן למחוק את ההערה. רענן את העמוד ונסה שנית."
+
+#: common/static/common/js/discussion/views/thread_response_view.js:230
+msgid "Are you sure you want to delete this response?"
+msgstr "האם אתה בטוח שברצונך למחוק את התגובה?"
+
+#: common/static/common/js/utils/edx.utils.validate.js:27
+msgid "The email address you've provided isn't formatted correctly."
+msgstr "כתובת הדואר האלקטרוני שסיפקת אינה כתובה בפורמט מתאים."
+
+#: common/static/common/js/utils/edx.utils.validate.js:28
+msgid "%(field)s must have at least %(count)d characters."
+msgstr "%(field)s חייב להיות לו לפחות %(count)d תווים."
+
+#: common/static/common/js/utils/edx.utils.validate.js:29
+msgid "%(field)s can only contain up to %(count)d characters."
+msgstr "%(field)s יכול להכיל רק עד %(count)d תווים."
+
+#: common/static/common/js/utils/edx.utils.validate.js:30
+msgid "Please enter your %(field)s."
+msgstr "אנא הזן את %(field)s."
+
+#: common/static/js/capa/drag_and_drop/base_image.js:14
+msgid "Drop target image"
+msgstr "שחרר תמונת מטרה"
+
+#: common/static/js/capa/drag_and_drop/draggable_events.js:86
+msgid "dragging out of slider"
+msgstr "גורר מחוץ לשקופית"
+
+#: common/static/js/capa/drag_and_drop/draggable_events.js:88
+msgid "dragging"
+msgstr "גורר"
+
+#: common/static/js/capa/drag_and_drop/draggable_events.js:110
+msgid "dropped in slider"
+msgstr "שוחרר על המחוון"
+
+#: common/static/js/capa/drag_and_drop/draggable_events.js:112
+msgid "dropped on target"
+msgstr "שוחרר על המטרה"
+
+#. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
+#: common/static/js/src/jquery.timeago.locale.js:3
+#, javascript-format
+msgid "%s ago"
+msgstr "לפני %s"
+
+#. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
+#: common/static/js/src/jquery.timeago.locale.js:5
+#, javascript-format
+msgid "%s from now"
+msgstr "%s מעכשיו"
+
+#: common/static/js/src/jquery.timeago.locale.js:6
+msgid "less than a minute"
+msgstr "פחות מדקה"
+
+#: common/static/js/src/jquery.timeago.locale.js:7
+msgid "about a minute"
+msgstr "בערך דקה"
+
+#: common/static/js/src/jquery.timeago.locale.js:8
+#, javascript-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: common/static/js/src/jquery.timeago.locale.js:9
+msgid "about an hour"
+msgstr "בערך שעה"
+
+#: common/static/js/src/jquery.timeago.locale.js:10
+#, javascript-format
+msgid "about %d hour"
+msgid_plural "about %d hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: common/static/js/src/jquery.timeago.locale.js:11
+msgid "a day"
+msgstr "יום"
+
+#: common/static/js/src/jquery.timeago.locale.js:12
+#, javascript-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: common/static/js/src/jquery.timeago.locale.js:13
+msgid "about a month"
+msgstr "בערך חודש אחד"
+
+#: common/static/js/src/jquery.timeago.locale.js:14
+#, javascript-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: common/static/js/src/jquery.timeago.locale.js:15
+msgid "about a year"
+msgstr "כשנה"
+
+#: common/static/js/src/jquery.timeago.locale.js:16
+#, javascript-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:38
+msgid "Select a section or problem"
+msgstr "נא לבחור מקטע או בעיה"
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:77
+msgid "Create a report of problem responses"
+msgstr "יצירת דוח של תגובות לבעיה"
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:10
+msgid "Your report is being generated..."
+msgstr "הדוח שלך נוצר…"
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:17
+msgid "Your report has been successfully generated."
+msgstr "הדוח שלך נוצר בהצלחה."
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:21
+msgid "View Report"
+msgstr "הצגת הדוח"
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js:64
+msgid "There was an error generating the report link."
+msgstr "אירעה שגיאה ביצירת קישור לדיווח."
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js:67
+msgid "There was an error generating your report."
+msgstr "אירעה שגיאה ביצירת הדוח שלך."
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js:70
+msgid "Unable to get report generation status."
+msgstr "לא ניתן לקבל מצב יצירת דוח."
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js:90
+msgid "Unable to submit request to generate report."
+msgstr "לא ניתן להגיש את הבקשה ליצירת הדוח."
+
+#: lms/djangoapps/support/static/support/js/views/certificates.js:52
+msgid "An unexpected error occurred.  Please try again."
+msgstr "אירעה שגיאה לא צפויה.  נסה שוב."
+
+#: lms/djangoapps/support/static/support/js/views/enrollment.js:16
+msgid "Financial Assistance"
+msgstr "עזרה כספית"
+
+#: lms/djangoapps/support/static/support/js/views/enrollment.js:17
+msgid "Upset Learner"
+msgstr "לומד מודאג"
+
+#: lms/djangoapps/support/static/support/js/views/enrollment.js:18
+msgid "Teaching Assistant"
+msgstr "עוזר הוראה"
+
+#: lms/djangoapps/support/static/support/js/views/enrollment_modal.js:52
+msgid "Please specify a reason."
+msgstr "ציין סיבה."
+
+#: lms/djangoapps/support/static/support/js/views/enrollment_modal.js:62
+msgid "Something went wrong changing this enrollment. Please try again."
+msgstr "משהו השתבש בעת שינוי הרשמה זו. נא נסה שוב."
+
+#: lms/djangoapps/support/static/support/jsx/errors_list.jsx:12
+msgid "Please fix the following errors:"
+msgstr "נא לתקן את השגיאות הבאות:"
+
+#: lms/djangoapps/support/static/support/jsx/file_upload.jsx:58
+msgid "Files that you upload must be smaller than 5MB in size."
+msgstr "קבצים שמעלים חייבים להיות קטנים מ-5MB."
+
+#: lms/djangoapps/support/static/support/jsx/file_upload.jsx:60
+msgid ""
+"Files that you upload must be PDFs or image files in .gif, .jpg, .jpeg, or "
+".png format."
+msgstr ""
+
+#: lms/djangoapps/support/static/support/jsx/file_upload.jsx:108
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:48
+msgid "Something went wrong. Please try again later."
+msgstr "משהו השתבש. יש לנסות שוב מאוחר יותר."
+
+#: lms/djangoapps/support/static/support/jsx/file_upload.jsx:125
+msgid "Add Attachment"
+msgstr "הוספת קובץ מצורף"
+
+#: lms/djangoapps/support/static/support/jsx/file_upload.jsx:126
+msgid "(Optional)"
+msgstr "(אופציונלי)"
+
+#: lms/djangoapps/support/static/support/jsx/file_upload.jsx:153
+msgid "Remove file"
+msgstr "הסרת קובץ"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:14
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:36
+msgid "Course Name"
+msgstr "שם הקורס"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:16
+msgid ""
+"For inquiries regarding assignments, grades, or structure of a specific "
+"course, please post in the discussion forums for that course directly."
+msgstr ""
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:25
+msgid "Not specific to a course"
+msgstr "לא ספציפי לקורס"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:41
+#: lms/static/js/instructor_dashboard/util.js:199
+msgid "Subject"
+msgstr "נושא"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:43
+msgid "Select a category"
+msgstr "בחירת קטגוריה"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:44
+msgid "Account Settings"
+msgstr "הגדרות חשבון"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:45
+msgid "Billing/Payment Options"
+msgstr "אפשרויות חיוב/תשלום"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:46
+msgid "Certificates"
+msgstr "תעודות"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:47
+msgid "Course Content"
+msgstr "תוכן קורס"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:48
+msgid "Deadlines"
+msgstr "מועדי הגשה"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:49
+msgid "Errors/Technical Issues"
+msgstr "שגיאות/נושאים טכניים"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:50
+msgid "Financial Aid"
+msgstr "סיוע כלכלי"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:51
+msgid "Photo Verification"
+msgstr "אימות תמונה "
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:52
+msgid "Proctoring"
+msgstr "השגחה"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:53
+msgid "Other"
+msgstr "אחר"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:63
+msgid "Course Discussion Forum"
+msgstr "פורום דיוני הקורס"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:80
+msgid ""
+"While our support team is happy to assist with the edX platform, the course "
+"staff has the expertise for specific assignment questions, grading or the "
+"proper procedures in each course. Please post all course related questions "
+"within the Discussion Forum where the Course Staff can directly respond."
+msgstr ""
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:96
+msgid "Details"
+msgstr "פרטים"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:97
+msgid "the more quickly and helpfully we can respond!"
+msgstr ""
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:108
+msgid "Create Support Ticket"
+msgstr "הגשת בקשת תמיכה"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:128
+msgid "What can we help you with, {username}?"
+msgstr "במה נוכל לסייע, {username}?"
+
+#: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:14
+msgid "Sign in to {platform} so we can help you better."
+msgstr "יש להתחבר ל-{platform} כדי שנוכל יותר טוב לעזור לך."
+
+#: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:33
+msgid "Need help logging in?"
+msgstr "אפשר להציע עזרה בכניסה לאתר?"
+
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:45
+msgid ""
+"Select a course or select \"Not specific to a course\" for your support "
+"request."
+msgstr ""
+
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:46
+msgid "Select a subject for your support request."
+msgstr "יש לבחור נושא עבור בקשת התמיכה שלך."
+
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:47
+msgid "Enter some details for your support request."
+msgstr "יש להזין כמה פרטים עבור בקשת התמיכה שלך."
+
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:318
+#: lms/djangoapps/support/static/support/jsx/success.jsx:25
+msgid "Contact Us"
+msgstr "צור קשר"
+
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:327
+msgid "Find answers to the top questions asked by learners."
+msgstr "מציאת תשובות לשאלות המובילות ששאלו הלומדים."
+
+#: lms/djangoapps/support/static/support/jsx/success.jsx:13
+msgid "Go to my Dashboard"
+msgstr "ללוח הבקרה שלי"
+
+#: lms/djangoapps/support/static/support/jsx/success.jsx:17
+msgid "Go to {platform} Home"
+msgstr "לדף הבית של {platform}"
+
+#: lms/djangoapps/support/static/support/jsx/success.jsx:31
+msgid ""
+"Thank you for submitting a request! We appreciate your patience while we "
+"work to review your request."
+msgstr ""
+
+#: lms/djangoapps/support/static/support/jsx/upload_progress.jsx:24
+msgid "Cancel upload"
+msgstr "ביטול ההעלאה"
+
+#: lms/djangoapps/teams/static/teams/js/collections/team.js:35
+msgid "last activity"
+msgstr "פעילות אחרונה"
+
+#: lms/djangoapps/teams/static/teams/js/collections/team.js:36
+msgid "open slots"
+msgstr "משבצות פתוחות"
+
+#: lms/djangoapps/teams/static/teams/js/collections/topic.js:25
+msgid "name"
+msgstr "שם"
+
+#. Translators: This refers to the number of teams (a count of how many teams
+#. there are)
+#: lms/djangoapps/teams/static/teams/js/collections/topic.js:27
+msgid "team count"
+msgstr "ספירת צוות"
+
+#: lms/djangoapps/teams/static/teams/js/teams_tab_factory.js:9
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:166
+msgid "Teams"
+msgstr "צוותים"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:34
+msgid "Create"
+msgstr "צור"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:39
+msgid "Update"
+msgstr "עדכן"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:44
+msgid "Team Name (Required) *"
+msgstr "שם הצוות (נדרש) *"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:46
+msgid "A name that identifies your team (maximum 255 characters)."
+msgstr "שם שמזהה את הצוות שלך (255 תווים לכל היותר)."
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:51
+msgid "Team Description (Required) *"
+msgstr "תיאור הצוות (נדרש) *"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:56
+msgid ""
+"A short description of the team to help other learners understand the goals "
+"or direction of the team (maximum 300 characters)."
+msgstr "תיאור קצר של הצוות שיעזור לתלמידים אחרים להבין את היעדים או הכיוון של הצוות (300 תווים לכל היותר)."
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:62
+#: lms/static/js/student_account/views/account_settings_factory.js:181
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:144
+msgid "Language"
+msgstr "שפה"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:69
+msgid ""
+"The language that team members primarily use to communicate with each other."
+msgstr "השפה העיקרית שחברי הצוות משתמשים כדי לתקשר זה עם זה."
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:74
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:132
+msgid "Country"
+msgstr "מדינה"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:80
+msgid "The country that team members primarily identify with."
+msgstr "המדינה העיקרית איתה מזוהים חברי הצוות."
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:150
+#: lms/static/js/views/fields.js:69
+msgid "An error occurred. Please try again."
+msgstr "אירעה שגיאה. נא נסה שוב."
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:160
+msgid "Check the highlighted fields below and try again."
+msgstr "סמן את השדות המודגשים להלן ונסה שוב."
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:170
+msgid "Enter team name."
+msgstr "הזן שם צוות."
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:176
+msgid "Team name cannot have more than 255 characters."
+msgstr "שם הצוות אינו יכול לחרוג מ-255 תווים."
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:184
+msgid "Enter team description."
+msgstr "הזן תיאור צוות."
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:190
+msgid "Team description cannot have more than 300 characters."
+msgstr "תיאור הצוות אינו יכול לחרוג מ-300 תווים."
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:19
+msgid "An error occurred while removing the member from the team. Try again."
+msgstr "אירעה שגיאה בזמן הסרת חבר מהצוות. נסה שוב."
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:41
+msgid "This team does not have any members."
+msgstr "אין חברים בצוות זה."
+
+#. Translators: 'date' is a placeholder for a fuzzy,
+#. * relative timestamp (see: https://github.com/rmm5t/jquery-timeago)
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:59
+msgid "Joined %(date)s"
+msgstr "הצטרף בתאריך %(date)s"
+
+#. Translators: 'date' is a placeholder for a fuzzy,
+#. * relative timestamp (see: https://github.com/rmm5t/jquery-timeago)
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:69
+msgid "Last Activity %(date)s"
+msgstr "פעילות אחרונה בתאריך %(date)s"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:93
+msgid "Remove this team member?"
+msgstr "האם להסיר חבר צוות זה?"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:94
+msgid ""
+"This learner will be removed from the team,allowing another learner to take "
+"the available spot."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:33
+msgid "Delete this team?"
+msgstr "למחוק צוות זה?"
+
+#: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:34
+msgid ""
+"Deleting a team is permanent and cannot be undone.All members are removed "
+"from the team, and team discussions can no longer be accessed."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:59
+msgid "Team \"{team}\" successfully deleted."
+msgstr "הצוות \"{team}\" נמחק בהצלחה."
+
+#: lms/djangoapps/teams/static/teams/js/views/manage.js:16
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:159
+msgid "Manage"
+msgstr "נהל"
+
+#: lms/djangoapps/teams/static/teams/js/views/my_teams.js:28
+msgid "You are not currently a member of any team."
+msgstr "אינך חבר כרגע באף צוות."
+
+#. Translators: "and others" refers to fact that additional
+#. * members of a team exist that are not displayed.
+#: lms/djangoapps/teams/static/teams/js/views/team_card.js:66
+msgid "and others"
+msgstr "ואחרים"
+
+#. Translators: 'date' is a placeholder for a fuzzy,
+#. * relative timestamp (see: http://momentjs.com/)
+#: lms/djangoapps/teams/static/teams/js/views/team_card.js:110
+msgid "Last activity {date}"
+msgstr "פעילות אחרונה ב-{תאריך}"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_card.js:157
+msgid "View {span_start} {team_name} {span_end}"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:22
+#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:14
+msgid "An error occurred. Try again."
+msgstr "אירעה שגיאה. נסה שוב."
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:104
+msgid "No assignments for team"
+msgstr "אין מטלות לצוות"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:142
+msgid "Leave this team?"
+msgstr "לעזוב צוות זה?"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:143
+msgid ""
+"If you leave, you can no longer post in this team's discussions.Your place "
+"will be available to another learner."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:145
+#: lms/static/js/verify_student/views/reverify_view.js:50
+msgid "Confirm"
+msgstr "אשר"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:15
+msgid "You already belong to another team in this team set."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:16
+msgid "This team is full."
+msgstr "צוות זה מלא."
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:17
+msgid "Cannot join instructor managed team"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/team_utils.js:34
+msgid " Member"
+msgid_plural " Members"
+msgstr[0] "חבר"
+msgstr[1] "חברים"
+msgstr[2] "חברים"
+msgstr[3] "חברים"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams.js:15
+msgid "All teams"
+msgstr "כל הצוותים"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams.js:18
+msgid "Teams Pagination"
+msgstr "עימוד צוותים"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:38
+msgid "Topics"
+msgstr "נושאים"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:146
+msgid "My Teams"
+msgstr "הצוותים שלי"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:152
+msgid "Browse"
+msgstr "עיין ב"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:199
+msgid "Your request could not be completed. Reload the page and try again."
+msgstr "לא ניתן להשלים את בקשתך. טען מחדש את הדף ונסה שוב."
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:203
+msgid ""
+"Your request could not be completed due to a server problem. Reload the page"
+" and try again. If the issue persists, click the Help tab to report the "
+"problem."
+msgstr "לא ניתן להשלים את בקשתך בגלל בעיה בשרת. טען מחדש את הדף ונסה שוב. אם הבעיה נמשכת, לחץ על הלשונית 'עזרה' כדי לדווח על הבעיה."
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:240
+msgid "Team Search"
+msgstr "חיפוש צוות"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:258
+msgid "Create a New Team"
+msgstr "צור צוות חדש"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:260
+msgid ""
+"Create a new team if you can't find an existing team to join, or if you "
+"would like to learn with friends you know."
+msgstr "צור צוות חדש אם אינך יכול למצוא צוות קיים ולהצטרף אליו או אם ברצונך ללמוד עם חברים שאתה מכיר."
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:295
+msgid "Edit Team"
+msgstr "ערוך צוות"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:297
+msgid ""
+"If you make significant changes, make sure you notify members of the team "
+"before making these changes."
+msgstr "אם אתה מבצע שינויים משמעותיים, ודא שאתה מודיע לחברי הצוות לפני ביצוע שינויים אלה."
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:327
+msgid "Membership"
+msgstr "חברות"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:329
+msgid ""
+"You can remove members from this team, especially if they have not "
+"participated in the team's activity."
+msgstr "תוכל להסיר חברים מהצוות הזה, במיוחד אם לא השתתפו בפעילות הצוות."
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:382
+msgid "Showing results for \"{searchString}\""
+msgstr "הצגת תוצאות עבור \"{searchString}\""
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:400
+msgid "Search teams"
+msgstr "חיפוש צוותים"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:531
+msgid ""
+"See all teams you belong to and all public teams in your course, organized "
+"by topic. Join an open public team to collaborate with other learners who "
+"are interested in the same topic as you are."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:538
+msgid ""
+"See all teams you belong to and all public teams in your course, organized "
+"by topic."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:542
+msgid "See all teams you belong to."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:548
+msgid "All Topics"
+msgstr "כל הנושאים"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:679
+msgid "The page \"{route}\" could not be found."
+msgstr "לא ניתן למצוא את העמוד \"{route}\"."
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:688
+msgid "The topic \"{topic}\" could not be found."
+msgstr "לא ניתן למצוא את הנושא \"{topic}\"."
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:697
+msgid "The team \"{team}\" could not be found."
+msgstr "לא ניתן למצוא את הצוות \"{team}\"."
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:27
+msgid "{team_count} Team"
+msgid_plural "{team_count} Teams"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:49
+msgid "Topic"
+msgstr "נושא"
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:56
+msgid "View Teams in the {topic_name} Topic"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_teams.js:24
+msgid ""
+"{browse_span_start}Browse teams in other topics{span_end} or "
+"{search_span_start}search teams{span_end} in this topic. If you still can't "
+"find a team to join, {create_span_start}create a new team in this "
+"topic{span_end}."
+msgstr "{browse_span_start}עיין בצוותים בנושאים אחרים {span_end}או {search_span_start}חפש צוותים{span_end} בנושא זה. אם עדיין לא הצלחת למצוא צוות להצטרף אליו, {create_span_start}צור צוות חדש בנושא זה{span_end}."
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_teams.js:38
+msgid ""
+"An error occurred while looking up team membership. Try refreshing the page."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/js/views/topics.js:16
+msgid "All topics"
+msgstr "כל הנושאים"
+
+#: lms/static/js/Markdown.Editor.js:28
+msgid "Insert Hyperlink"
+msgstr "הכנס היפר קישור"
+
+#: lms/static/js/Markdown.Editor.js:29
+msgid "e.g. 'http://google.com'"
+msgstr "למשל 'http://google.com'"
+
+#: lms/static/js/Markdown.Editor.js:30
+msgid "Link Description"
+msgstr "תיאור הקישור"
+
+#: lms/static/js/Markdown.Editor.js:31
+msgid "e.g. 'google'"
+msgstr "לדוגמה: 'google'"
+
+#: lms/static/js/Markdown.Editor.js:32
+msgid "Please provide a description of the link destination."
+msgstr "תאור את יעד הקישור."
+
+#: lms/static/js/Markdown.Editor.js:36
+msgid "Insert Image (upload file or type URL)"
+msgstr "הכנס תמונה (העלה קובץ או הקלד כתובת אתר)"
+
+#: lms/static/js/Markdown.Editor.js:37
+msgid ""
+"Type in a URL or use the \"Choose File\" button to upload a file from your "
+"machine. (e.g. 'http://example.com/img/clouds.jpg')"
+msgstr "הקלד בכתובת אתר או השתמש בלחצן \"בחר קובץ\" כדי להעלות קובץ מהמחשב שלך. (לדוגמה 'http://example.com/img/clouds.jpg')"
+
+#: lms/static/js/Markdown.Editor.js:38
+msgid "Image Description"
+msgstr "תיאור התמונה"
+
+#: lms/static/js/Markdown.Editor.js:40
+msgid ""
+"Please describe this image or agree that it has no contextual value by "
+"checking the checkbox."
+msgstr "תאר את התמונה או אשר שהיא חסרת ערך מבחינה תכנית באמצעות סימון בתיבה המיועדת לכך. "
+
+#: lms/static/js/Markdown.Editor.js:41
+msgid ""
+"e.g. 'Sky with clouds'. The description is helpful for users who cannot see "
+"the image."
+msgstr "לדוגמה 'שמיים עם עננים'. התיאור מועיל למשתמשים שאינם יכולים לראות את התמונה."
+
+#: lms/static/js/Markdown.Editor.js:44
+msgid "How to create useful text alternatives."
+msgstr "כיצד ליצור חלופות טקסט מועילות."
+
+#: lms/static/js/Markdown.Editor.js:46
+msgid ""
+"This image is for decorative purposes only and does not require a "
+"description."
+msgstr "תמונה זו נועדה למטרות דקורטיביות בלבד ואין צורך בתיאורה."
+
+#: lms/static/js/Markdown.Editor.js:49
+msgid "Markdown Editing Help"
+msgstr "עזרה בעריכת סימון"
+
+#: lms/static/js/Markdown.Editor.js:50
+msgid "URL"
+msgstr "כתובת URL"
+
+#: lms/static/js/Markdown.Editor.js:51
+msgid "Please provide a valid URL."
+msgstr "אנא ספק כתובת URL חוקית."
+
+#. Translators: 'errorCount' is the number of errors found in the form.
+#: lms/static/js/Markdown.Editor.js:1059
+msgid "%(errorCount)s error found in form."
+msgid_plural "%(errorCount)s errors found in form."
+msgstr[0] "שגיאה %(errorCount)s נמצאה בטופס."
+msgstr[1] "%(errorCount)s שגיאות נמצאו בטופס."
+msgstr[2] "%(errorCount)s שגיאות נמצאו בטופס."
+msgstr[3] "%(errorCount)s שגיאות נמצאו בטופס."
+
+#: lms/static/js/Markdown.Editor.js:1449
+msgid "Bold (Ctrl+B)"
+msgstr "מודגש (Ctrl+B)"
+
+#: lms/static/js/Markdown.Editor.js:1450
+msgid "Italic (Ctrl+I)"
+msgstr "נטוי (Ctrl+I)"
+
+#: lms/static/js/Markdown.Editor.js:1452
+msgid "Hyperlink (Ctrl+L)"
+msgstr "היפר קישור (Ctrl+L)"
+
+#: lms/static/js/Markdown.Editor.js:1455
+msgid "Blockquote (Ctrl+Q)"
+msgstr "ציטוט (Ctrl+Q)"
+
+#: lms/static/js/Markdown.Editor.js:1456
+msgid "Code Sample (Ctrl+K)"
+msgstr "דוגמת קוד (Ctrl+K)"
+
+#: lms/static/js/Markdown.Editor.js:1457
+msgid "Image (Ctrl+G)"
+msgstr "תמונה (Ctrl+G)"
+
+#: lms/static/js/Markdown.Editor.js:1461
+msgid "Numbered List (Ctrl+O)"
+msgstr "רשימה ממוספרת (Ctrl+O)"
+
+#: lms/static/js/Markdown.Editor.js:1464
+msgid "Bulleted List (Ctrl+U)"
+msgstr "רשימה עם תבליטים (Ctrl+U)"
+
+#: lms/static/js/Markdown.Editor.js:1467
+msgid "Heading (Ctrl+H)"
+msgstr "כותרת (Ctrl+H)"
+
+#: lms/static/js/Markdown.Editor.js:1468
+msgid "Horizontal Rule (Ctrl+R)"
+msgstr "קו אופקי (Ctrl+R)"
+
+#: lms/static/js/Markdown.Editor.js:1470
+msgid "Undo (Ctrl+Z)"
+msgstr "בטל (Ctrl+Z) "
+
+#: lms/static/js/Markdown.Editor.js:1474
+msgid "Redo (Ctrl+Y)"
+msgstr "בצע שוב (Ctrl+Y)"
+
+#: lms/static/js/Markdown.Editor.js:1475
+msgid "Redo (Ctrl+Shift+Z)"
+msgstr "בצע שוב (Ctrl+Shift+Z)"
+
+#: lms/static/js/Markdown.Editor.js:1541
+msgid "strong text"
+msgstr "טקסט חזק"
+
+#: lms/static/js/Markdown.Editor.js:1545
+msgid "emphasized text"
+msgstr "טקסט מודגש"
+
+#: lms/static/js/Markdown.Editor.js:1737
+msgid "enter link description here"
+msgstr "הזן תיאור קישור כאן"
+
+#: lms/static/js/Markdown.Editor.js:1994 lms/static/js/Markdown.Editor.js:2012
+msgid "enter code here"
+msgstr "הזן קוד כאן"
+
+#: lms/static/js/Markdown.Editor.js:2100
+msgid "List item"
+msgstr "פריט רשימה"
+
+#: lms/static/js/Markdown.Editor.js:2130
+msgid "Heading"
+msgstr "כותרת עליונה"
+
+#: lms/static/js/ajax-error.js:4
+msgid ""
+"You have been logged out of your account. Click Okay to log in again now. "
+"Click Cancel to stay on this page (you must log in again to save your work)."
+msgstr ""
+
+#: lms/static/js/api_admin/views/catalog_preview.js:25
+msgid "Preview this query"
+msgstr "תצוגה מקדימה לשאילתא זו"
+
+#: lms/static/js/calculator.js:54
+msgid "Open Calculator"
+msgstr "פתח מחשבון"
+
+#: lms/static/js/calculator.js:61
+msgid "Close Calculator"
+msgstr "סגור מחשבון"
+
+#: lms/static/js/ccx/schedule.js:63
+msgid "All subsections"
+msgstr "כל תתי הקטעים"
+
+#: lms/static/js/ccx/schedule.js:86
+msgid "All units"
+msgstr "כל היחידות"
+
+#: lms/static/js/ccx/schedule.js:185 lms/static/js/ccx/schedule.js:188
+msgid "Click to change"
+msgstr "לחץ לשינוי"
+
+#: lms/static/js/ccx/schedule.js:225
+msgid "Select a chapter"
+msgstr "בחר פרק"
+
+#: lms/static/js/ccx/schedule.js:267 lms/static/js/ccx/schedule.js:278
+msgid "Save changes"
+msgstr "שמור שינויים"
+
+#: lms/static/js/ccx/schedule.js:299
+msgid "Please enter valid start date and time."
+msgstr "הזן תאריךהתחלה ושעה חוקיים."
+
+#: lms/static/js/ccx/schedule.js:306
+msgid "Due date cannot be before start date."
+msgstr "תאריך הסיום אינו יכול להקדים את תאריך ההתחלה."
+
+#: lms/static/js/ccx/schedule.js:434
+msgid "Enter Due Date and Time"
+msgstr "הזן תאריך סיום ושעה"
+
+#: lms/static/js/ccx/schedule.js:435
+msgid "Enter Start Date and Time"
+msgstr "הזן תאריך התחלה ושעה"
+
+#: lms/static/js/certificates/models/certificate_exception.js:31
+msgid ""
+"Student username/email field is required and can not be empty. Kindly fill "
+"in username/email and then press \"Add to Exception List\" button."
+msgstr "שדה שם המשתמש/דואר אלקטרוני של הסטודנט הוא שדה חובה ולא ניתן להשאירו ריק. אנא מלא את שם המשתמש/הדואר האלקטרוני ולאחר מכן לחץ על הלחצן \"הוסף לרשימת חריגים\"."
+
+#: lms/static/js/certificates/models/certificate_invalidation.js:28
+msgid ""
+"Student username/email field is required and can not be empty. Kindly fill "
+"in username/email and then press \"Invalidate Certificate\" button."
+msgstr "שדה שם המשתמש/דואר אלקטרוני של הסטודנט הוא שדה חובה ולא ניתן להשאירו ריק. אנא מלא את שם המשתמש/דואר אלקטרוני ולאחר מכן לחץ על הלחצן \"פסילת תעודה\"."
+
+#: lms/static/js/certificates/views/certificate_allowlist.js:59
+msgid "Student Removed from certificate allowlist successfully."
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_allowlist.js:69
+msgid ""
+"Could not find Certificate Exception in the allowlist. Please refresh the "
+"page and try again"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_allowlist.js:106
+#: lms/static/js/certificates/views/certificate_allowlist_editor.js:112
+#: lms/static/js/certificates/views/certificate_invalidation_view.js:68
+#: lms/static/js/certificates/views/certificate_invalidation_view.js:96
+msgid "Server Error, Please refresh the page and try again."
+msgstr "שגיאת שרת, רענן את הדף ונסה שוב."
+
+#: lms/static/js/certificates/views/certificate_allowlist_editor.js:63
+msgid "<%- user %> already in exception list."
+msgstr "<%- user %> כבר ברשימת החריגים."
+
+#: lms/static/js/certificates/views/certificate_allowlist_editor.js:68
+msgid ""
+"<%- user %> has been successfully added to the exception list. Click "
+"Generate Exception Certificate below to send the certificate."
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:106
+msgid " learners were successfully added to exception list"
+msgstr "הלומדים נוספו בהצלחה לרשימת החריגים"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:107
+msgid " learner was successfully added to the exception list"
+msgstr "הלומד נוסף בהצלחה לרשימת החריגים"
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:112
+msgid ""
+" records are not in the correct format and have not been added to the "
+"exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:114
+msgid ""
+" record is not in the correct format and has not been added to the exception"
+" list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:120
+msgid ""
+" learner accounts cannot be found and have not been added to the exception "
+"list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:122
+msgid ""
+" learner account cannot be found and has not been added to the exception "
+"list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:128
+msgid " learners already appear on the exception list in this course"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:129
+msgid " learner already appears on the exception list in this course"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:134
+msgid ""
+" learners are not enrolled in this course and have not added to the "
+"exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:136
+msgid ""
+" learner is not enrolled in this course and has not been added to the "
+"exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:142
+msgid ""
+" learners have an active certificate invalidation in this course and have "
+"not been added to the exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:144
+msgid ""
+" learner has an active certificate invalidation in this course and has not "
+"been added to the exception list"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:150
+msgid " learners encountered unknown errors"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:151
+msgid " learner encountered an unknown error"
+msgstr ""
+
+#: lms/static/js/certificates/views/certificate_bulk_allowlist.js:163
+msgid "Uploaded file issues. Click on \"+\" to view."
+msgstr "בעיות בהעלאת קובץ. לחץ על \"+\" כדי להציג."
+
+#: lms/static/js/certificates/views/certificate_invalidation_view.js:49
+msgid ""
+"Certificate of <%= user %> has already been invalidated. Please check your "
+"spelling and retry."
+msgstr "התעודה של <%= user %> כבר נפסלה. בדוק את האיות ונסה שוב."
+
+#: lms/static/js/certificates/views/certificate_invalidation_view.js:58
+msgid "Certificate has been successfully invalidated for <%= user %>."
+msgstr "התעודה של <%= user %> נפסלה בהצלחה."
+
+#: lms/static/js/certificates/views/certificate_invalidation_view.js:87
+msgid ""
+"The certificate for this learner has been re-validated and the system is re-"
+"running the grade for this learner."
+msgstr "התעודה של תלמיד זה אומתה מחדש והמערכת מריצה מחדש את הציון עבור תלמיד זה."
+
+#: lms/static/js/certificates/views/certificate_invalidation_view.js:105
+msgid ""
+"Could not find Certificate Invalidation in the list. Please refresh the page"
+" and try again"
+msgstr "לא ניתן למצוא פסילת תעודה ברשימה. רענן את הדף ונסה שוב"
+
+#: lms/static/js/course_survey.js:76
+msgid "There has been an error processing your survey."
+msgstr "אירעה שגיאה בעיבוד הסקר שלך."
+
+#: lms/static/js/courseware/credit_progress.js:7
+#: lms/static/js/courseware/credit_progress.js:14
+msgid "More"
+msgstr "עוד"
+
+#: lms/static/js/courseware/credit_progress.js:14
+msgid "Less"
+msgstr "פחות"
+
+#: lms/static/js/customwmd.js:187
+msgid "HTML preview of post"
+msgstr "תצוגה מקדימה ב-HTML של הפוסט"
+
+#: lms/static/js/customwmd.js:200
+msgid "Your question or idea (required)"
+msgstr "שאלתך או רעיונך (חובה)"
+
+#: lms/static/js/dashboard/donation.js:172
+msgid "Please enter a valid donation amount."
+msgstr "אנא הזן סכום לתרומה."
+
+#: lms/static/js/dashboard/donation.js:204
+msgid "Your donation could not be submitted."
+msgstr "התרומה שלך לא יכלה להתקבל."
+
+#: lms/static/js/dashboard/legacy.js:93 lms/static/js/dashboard/legacy.js:108
+msgid "You will be refunded the amount you paid."
+msgstr "הסכומים ששילמת יוחזרו לך."
+
+#: lms/static/js/dashboard/legacy.js:95
+msgid "You will not be refunded the amount you paid."
+msgstr "הסכומים ששילמת לא יוחזרו לך."
+
+#: lms/static/js/dashboard/legacy.js:97
+msgid ""
+"Are you sure you want to unenroll from the purchased course {courseName} "
+"({courseNumber})?"
+msgstr ""
+
+#: lms/static/js/dashboard/legacy.js:100
+msgid "Are you sure you want to unenroll from {courseName} ({courseNumber})?"
+msgstr ""
+
+#: lms/static/js/dashboard/legacy.js:103 lms/static/js/dashboard/legacy.js:106
+msgid ""
+"Are you sure you want to unenroll from the verified {certNameLong}  track of"
+" {courseName}  ({courseNumber})?"
+msgstr ""
+
+#: lms/static/js/dashboard/legacy.js:110
+msgid ""
+"Are you sure you want to unenroll from the verified {certNameLong} track of "
+"{courseName} ({courseNumber})?"
+msgstr ""
+
+#: lms/static/js/dashboard/legacy.js:112
+msgid ""
+"The refund deadline for this course has passed, so you will not receive a "
+"refund."
+msgstr "המועד האחרון להגשת ההחזר כספי עבור קורס זה עבר, לכן אינך זכאי לקבל החזר."
+
+#: lms/static/js/dashboard/legacy.js:191 lms/static/js/dashboard/legacy.js:201
+#: lms/static/js/learner_dashboard/views/unenroll_view.js:88
+msgid ""
+"Unable to determine whether we should give you a refund because of System "
+"Error. Please try again later."
+msgstr ""
+
+#: lms/static/js/demographics_collection/DemographicsCollectionBanner.jsx:65
+msgid "Want to make edX better for everyone?"
+msgstr "מעניין אותך לשפר את edX למען הכלל?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionBanner.jsx:69
+msgid "Get started"
+msgstr "חניכה"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:269
+msgid "Help make edX better for everyone!"
+msgstr "כל אחד ואחת יכולים לסייע בשיפור edX למען הכלל!"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:278
+msgid "Why does edX collect this information?"
+msgstr "למה המידע הזה נאסף על ידי edX?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:281
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:495
+msgid ""
+"An error occurred while attempting to retrieve or save the information "
+"below. Please try again later."
+msgstr "אירעה שגיאה בעת הניסיון למשוך או לשמור את המידע שלהלן. נא לנסות שוב מאוחר יותר."
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:331
+msgid ""
+"What was the total combined income, during the last 12 months, of all "
+"members of your family? "
+msgstr "מה הייתה ההכנסה הכוללת של כל בני משפחתך במהלך 12 החודשים שחלפו?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:355
+msgid ""
+"Have you ever served on active duty in the U.S. Armed Forces, Reserves, or "
+"National Guard?"
+msgstr "שירת שירות פעיל בצבא ארה״ב, במילואים או במשמר הלאומי?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:381
+msgid "What is the highest level of education that you have achieved so far?"
+msgstr "מה היא דרגת ההשכלה הגבוהה ביותר שרכשת עד כה?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:402
+msgid ""
+"What is the highest level of education that any of your parents or guardians"
+" have achieved?"
+msgstr "מה דרגת ההשכלה הגבוהה ביותר שהוריך או מגדליך רכשו?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:432
+msgid "Select employment status"
+msgstr "בחירת מצב תעסוקה"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:447
+msgid "What industry do you currently work in?"
+msgstr "מה תחום התעסוקה שלך?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:466
+msgid "What industry do you want to work in?"
+msgstr "באיזו תעסוקה מעניין אותך לעבוד?"
+
+#: lms/static/js/demographics_collection/MultiselectDropdown.jsx:97
+msgid "Clear all"
+msgstr "למחוק הכול"
+
+#: lms/static/js/demographics_collection/Wizard.jsx:69
+#: lms/static/js/demographics_collection/Wizard.jsx:107
+msgid "demographics questionnaire"
+msgstr "שאלון דמוגרפיה"
+
+#: lms/static/js/demographics_collection/Wizard.jsx:74
+msgid "close questionnaire"
+msgstr "סגירת השאלון"
+
+#: lms/static/js/demographics_collection/Wizard.jsx:113
+msgid "finish later"
+msgstr "לסיים מאוחר יותר"
+
+#: lms/static/js/demographics_collection/Wizard.jsx:113
+msgid "Return to my dashboard"
+msgstr "חזרה ללוח הבקרה שלי"
+
+#: lms/static/js/demographics_collection/Wizard.jsx:113
+msgid "Finish later"
+msgstr "לסיים מאוחר יותר"
+
+#: lms/static/js/demographics_collection/Wizard.jsx:114
+msgid "next page"
+msgstr "העמוד הבא"
+
+#: lms/static/js/discovery/views/search_form.js:47
+#, javascript-format
+msgid "Viewing %s course"
+msgid_plural "Viewing %s courses"
+msgstr[0] "מציג קורס %s"
+msgstr[1] "מציג %s קורסים"
+msgstr[2] "מציג %s קורסים"
+msgstr[3] "מציג %s קורסים"
+
+#: lms/static/js/discovery/views/search_form.js:56
+#, javascript-format
+msgid "We couldn't find any results for \"%s\"."
+msgstr "לא נמצאה אף תוצאה עבור \"%s\"."
+
+#: lms/static/js/discovery/views/search_form.js:64
+msgid "There was an error, try searching again."
+msgstr "אירעה שגיאה, נסה לחפש שוב."
+
+#: lms/static/js/discussions_management/views/discussions.js:59
+msgid "Not divided"
+msgstr "לא מחולק"
+
+#: lms/static/js/discussions_management/views/discussions.js:60
+msgid ""
+"Discussions are unified; all learners interact with posts from other "
+"learners, regardless of the group they are in."
+msgstr "במצב זה כל הדיונים מאוחדים וכל הלומדים מתקשרים עם לומדים אחרים, ללא תלות באוכלוסייה שהוגדרה להם."
+
+#: lms/static/js/discussions_management/views/discussions.js:66
+msgid "Enrollment Tracks"
+msgstr "מסלולי הרשמה"
+
+#: lms/static/js/discussions_management/views/discussions.js:67
+msgid ""
+"Use enrollment tracks as the basis for dividing discussions. All learners, "
+"regardless of their enrollment track, see the same discussion topics, but "
+"within divided topics, only learners who are in the same enrollment track "
+"see and respond to each others’ posts."
+msgstr ""
+
+#: lms/static/js/discussions_management/views/discussions.js:73
+msgid "Cohorts"
+msgstr "קבוצות למידה"
+
+#: lms/static/js/discussions_management/views/discussions.js:74
+msgid ""
+"Use cohorts as the basis for dividing discussions. All learners, regardless "
+"of cohort, see the same discussion topics, but within divided topics, only "
+"members of the same cohort see and respond to each others’ posts. "
+msgstr "השתמשו ב'קבוצות למידה' שהגדרתם עבור חלוקת הדיונים. שימו לב שכל קבוצת למידה תהיה חשופה אך ורק לתוכן הדיון שלה - הודעות ותגובות."
+
+#: lms/static/js/discussions_management/views/discussions.js:181
+msgid "Discussion topics in the course are not divided."
+msgstr "נושאי הדיון בקורס אינם מחולקים"
+
+#: lms/static/js/discussions_management/views/discussions.js:184
+msgid "Any divided discussion topics are divided based on enrollment track."
+msgstr ""
+
+#: lms/static/js/discussions_management/views/discussions.js:187
+msgid "Any divided discussion topics are divided based on cohort."
+msgstr "כל נושאי הדיונים מחולקים על בסיס קבוצות הלמידה"
+
+#: lms/static/js/discussions_management/views/discussions.js:194
+msgid "Your changes have been saved. {details}"
+msgstr "השינויים נשמרו. {details}"
+
+#: lms/static/js/discussions_management/views/discussions.js:209
+msgid "We have encountered an error. Refresh your browser and then try again."
+msgstr ""
+
+#: lms/static/js/discussions_management/views/divided_discussions.js:62
+#: lms/static/js/discussions_management/views/divided_discussions_course_wide.js:79
+#: lms/static/js/discussions_management/views/divided_discussions_inline.js:145
+#: lms/static/js/groups/views/cohort_form.js:162
+#: lms/static/js/groups/views/cohorts.js:161
+msgid "We've encountered an error. Refresh your browser and then try again."
+msgstr "אירעה שגיאה. רענן את הדפדפן שלך ואז נסה שוב."
+
+#: lms/static/js/edxnotes/views/notes_visibility_factory.js:12
+#: lms/static/js/edxnotes/views/search_box.js:17
+msgid ""
+"An error has occurred. Make sure that you are connected to the Internet, and"
+" then try refreshing the page."
+msgstr "אירעה שגיאה. ודא כי אתה מחובר לאינטרנט, ואז רענן את הדף."
+
+#: lms/static/js/edxnotes/views/notes_visibility_factory.js:73
+msgid "Hide notes"
+msgstr "הסתר רשומות"
+
+#: lms/static/js/edxnotes/views/notes_visibility_factory.js:74
+msgid "Notes visible"
+msgstr "רשומות גלויות"
+
+#: lms/static/js/edxnotes/views/notes_visibility_factory.js:80
+msgid "Show notes"
+msgstr "הצג רשומות"
+
+#: lms/static/js/edxnotes/views/notes_visibility_factory.js:81
+msgid "Notes hidden"
+msgstr "רשומות מוסתרות"
+
+#: lms/static/js/edxnotes/views/search_box.js:20
+msgid "Please enter a term in the {anchorStart} search field{anchorEnd}."
+msgstr "אנא הכנס מונח ב-{anchorStart} שדה החיפוש{anchorEnd}."
+
+#: lms/static/js/edxnotes/views/tab_item.js:26
+msgid "Current tab"
+msgstr "כרטיסייה נוכחית"
+
+#: lms/static/js/edxnotes/views/tabs/course_structure.js:49
+msgid "Location in Course"
+msgstr "מיקום בקורס"
+
+#: lms/static/js/edxnotes/views/tabs/recent_activity.js:28
+msgid "Recent Activity"
+msgstr "פעילות אחרונה"
+
+#: lms/static/js/edxnotes/views/tabs/search_results.js:34
+msgid "No results found for \"{query_string}\". Please try searching again."
+msgstr ""
+
+#: lms/static/js/edxnotes/views/tabs/search_results.js:48
+msgid "Search Results"
+msgstr "תוצאות חיפוש"
+
+#. Translators: this is a title shown before all Notes that have no associated
+#. tags. It is put within
+#. brackets to differentiate it from user-defined tags, but it should still be
+#. translated.
+#: lms/static/js/edxnotes/views/tabs/tags.js:38
+msgid "[no tags]"
+msgstr "[no tags]"
+
+#. Translators: 'Tags' is the name of the view (noun) within the Student Notes
+#. page that shows all
+#. notes organized by the tags the student has associated with them (if any).
+#. When defining a
+#. note in the courseware, the student can choose to associate 1 or more tags
+#. with the note
+#. in order to group similar notes together and help with search.
+#: lms/static/js/edxnotes/views/tabs/tags.js:127
+msgid "Tags"
+msgstr "תגיות"
+
+#: lms/static/js/financial-assistance/views/financial_assistance_form_view.js:37
+msgid "Unable to submit application"
+msgstr "לא ניתן לשלוח אפליקציה"
+
+#: lms/static/js/financial-assistance/views/financial_assistance_form_view.js:105
+#: lms/static/js/student_account/views/LoginView.js:216
+msgid "An error has occurred. Check your Internet connection and try again."
+msgstr "אירעה שגיאה. בדוק את חיבור האינטרנט ונסה שוב."
+
+#: lms/static/js/financial-assistance/views/financial_assistance_form_view.js:152
+msgid "Choose one"
+msgstr "בחר אחד"
+
+#: lms/static/js/groups/views/cohort_editor.js:62
+msgid "Selected tab"
+msgstr "כרטיסייה שנבחרה"
+
+#: lms/static/js/groups/views/cohort_editor.js:76
+msgid "Saved cohort"
+msgstr "קבוצת לימוד שמורה"
+
+#: lms/static/js/groups/views/cohort_editor.js:119
+msgid "Error adding learners."
+msgstr "שגיאה בהוספת לומדים."
+
+#: lms/static/js/groups/views/cohort_editor.js:122
+msgid "Enter a username or email."
+msgstr "הכנס שם משתמש או דואר אלקטרוני"
+
+#: lms/static/js/groups/views/cohort_editor.js:174
+msgid "{numUsersAdded} learner has been added to this cohort. "
+msgid_plural "{numUsersAdded} learners have been added to this cohort. "
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: lms/static/js/groups/views/cohort_editor.js:194
+msgid "{numMoved} learner was moved from {prevCohort}"
+msgid_plural "{numMoved} learners were moved from {prevCohort}"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: lms/static/js/groups/views/cohort_editor.js:204
+msgid "{numPresent} learner was already in the cohort"
+msgid_plural "{numPresent} learners were already in the cohort"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: lms/static/js/groups/views/cohort_editor.js:230
+msgid "{email}"
+msgstr ""
+
+#: lms/static/js/groups/views/cohort_editor.js:236
+msgid ""
+"{numPreassigned} learner was pre-assigned for this cohort. This learner will"
+" automatically be added to the cohort when they enroll in the course."
+msgid_plural ""
+"{numPreassigned} learners were pre-assigned for this cohort. These learners "
+"will automatically be added to the cohort when they enroll in the course."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: lms/static/js/groups/views/cohort_editor.js:274
+msgid "Unknown username: {user}"
+msgstr ""
+
+#: lms/static/js/groups/views/cohort_editor.js:278
+msgid "Invalid email address: {email}"
+msgstr "כתובת אימייל לא תקינה: {email}"
+
+#: lms/static/js/groups/views/cohort_editor.js:285
+msgid "There was an error when trying to add learners:"
+msgid_plural "{numErrors} learners could not be added to this cohort:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: lms/static/js/groups/views/cohort_editor.js:300
+msgid "View all errors"
+msgstr "צפה בכל הטעויות"
+
+#: lms/static/js/groups/views/cohort_form.js:107
+msgid "You must specify a name for the cohort"
+msgstr "עליך לציין שם של קבוצת לימוד"
+
+#: lms/static/js/groups/views/cohort_form.js:111
+msgid "You did not select a content group"
+msgstr "לא בחרת קבוצת תוכן"
+
+#: lms/static/js/groups/views/cohort_form.js:114
+msgid "The selected content group does not exist"
+msgstr "קבוצת התוכן שנבחרה אינה קיימת"
+
+#: lms/static/js/groups/views/cohort_form.js:142
+msgid "The cohort cannot be saved"
+msgstr "לא ניתן לשמור את קבוצת הלימוד"
+
+#: lms/static/js/groups/views/cohort_form.js:142
+msgid "The cohort cannot be added"
+msgstr "לא ניתן להוסיף את קבוצת הלימוד"
+
+#: lms/static/js/groups/views/cohorts.js:121
+msgid "You currently have no cohorts configured"
+msgstr "לא מוגדרות כעת קבוצות לימוד"
+
+#: lms/static/js/groups/views/cohorts.js:122
+msgid "Add Cohort"
+msgstr "הוסף קבוצת לימוד"
+
+#: lms/static/js/groups/views/cohorts.js:262
+msgid ""
+"The {cohortGroupName} cohort has been created. You can manually add students"
+" to this cohort below."
+msgstr "קבוצת הלימוד {cohortGroupName} נוצרה. אתה יכול להוסיף סטודנטים בצורה ידנית לקבוצת לימוד זו. "
+
+#: lms/static/js/groups/views/cohorts.js:292
+msgid "Assign students to cohorts by uploading a CSV file."
+msgstr "הקצאת סטודנטים לקבוצות לימוד על ידי העלאת קובץ CSV."
+
+#: lms/static/js/groups/views/cohorts.js:293
+msgid "Choose a .csv file"
+msgstr "בחר קובץ CSV."
+
+#: lms/static/js/groups/views/cohorts.js:294
+msgid "Only properly formatted .csv files will be accepted."
+msgstr "יתקבלו רק קבצי CSV. מפורמטים כהלכה "
+
+#: lms/static/js/groups/views/cohorts.js:295
+msgid "Upload File and Assign Students"
+msgstr "העלה קובץ והקצה סטודנטים"
+
+#: lms/static/js/groups/views/cohorts.js:300
+msgid ""
+"Your file '{file}' has been uploaded. Allow a few minutes for processing."
+msgstr "הקובץ שלך '{file}' הועלה. אפשר למערכת כמה דקות לעיבוד. "
+
+#: lms/static/js/groups/views/course_cohort_settings_notification.js:30
+msgid "Cohorts Enabled"
+msgstr "קבוצת לימוד מאופשרת"
+
+#: lms/static/js/groups/views/course_cohort_settings_notification.js:32
+msgid "Cohorts Disabled"
+msgstr "בטל אפשרות קבוצות לימוד"
+
+#: lms/static/js/groups/views/verified_track_settings_notification.js:34
+msgid ""
+"This course uses automatic cohorting for verified track learners. You cannot"
+" disable cohorts, and you cannot rename the manual cohort named "
+"'{verifiedCohortName}'. To change the configuration for verified track "
+"cohorts, contact your edX partner manager."
+msgstr "קורס זה משתמש במחזורי למידה אוטומטיים עבור לומדים במסלול מאומת. אינך יכול להשבית מחזורי למידה ואינך יכול לשנות את השם של מחזור למידה ידני המכונה '{verifiedCohortName}'. כדי לשנות את ההגדרה למחזורי למידה עם מעקב מאומת, צור קשר עם המנהל השותף שלך ב-edX."
+
+#: lms/static/js/groups/views/verified_track_settings_notification.js:42
+msgid ""
+"This course has automatic cohorting enabled for verified track learners, but"
+" the required cohort does not exist. You must create a manually-assigned "
+"cohort named '{verifiedCohortName}' for the feature to work."
+msgstr "לקורס זה יש מחזור למידה אוטומטי שמופעל עבור לומדים במסלול מאומת, אך מחזור הלמידה הדרוש אינו קיים. עליך ליצור מחזור למידה שמוקצה באופן ידני המכונה '{verifiedCohortName}' כדי שהתכונה תעבוד."
+
+#: lms/static/js/groups/views/verified_track_settings_notification.js:51
+msgid ""
+"This course has automatic cohorting enabled for verified track learners, but"
+" cohorts are disabled. You must enable cohorts for the feature to work."
+msgstr "לקורס זה יש מחזור למידה אוטומטי שמופעל עבור לומדים במסלול מאומת, אך מחזורי הלמידה מושבתים. עליך להפעיל מחזורי למידה כדי שהתכונה תעבוד."
+
+#: lms/static/js/instructor_dashboard/certificates.js:20
+msgid "Allow students to generate certificates for this course?"
+msgstr "לאפשר לסטודנטים ליצור תעודות עבור קורס זה?"
+
+#: lms/static/js/instructor_dashboard/certificates.js:22
+msgid "Prevent students from generating certificates in this course?"
+msgstr "למנוע מסטודנטים ליצור תעודות עבור קורס זה?"
+
+#: lms/static/js/instructor_dashboard/certificates.js:44
+msgid "Start generating certificates for all students in this course?"
+msgstr "להתחיל ביצירת תעודות עבור כל הסטודנטים בקורס זה?"
+
+#: lms/static/js/instructor_dashboard/certificates.js:60
+msgid "Error while generating certificates. Please try again."
+msgstr "אירעה שגיאה בעת יצירת התעודות. נסה שוב."
+
+#: lms/static/js/instructor_dashboard/certificates.js:69
+msgid "Start regenerating certificates for students in this course?"
+msgstr "להתחיל ביצירה מחדש של תעודות עבור הסטודנטים בקורס זה?"
+
+#: lms/static/js/instructor_dashboard/certificates.js:96
+msgid "Error while regenerating certificates. Please try again."
+msgstr "אירעה שגיאה בעת יצירה מחדש של התעודות. נסה שוב."
+
+#: lms/static/js/instructor_dashboard/data_download.js:30
+#: lms/static/js/instructor_dashboard/data_download_2.js:136
+msgid "Loading data..."
+msgstr "טוען נתונים..."
+
+#: lms/static/js/instructor_dashboard/data_download.js:37
+#: lms/static/js/instructor_dashboard/data_download_2.js:50
+msgid "Error getting issued certificates list."
+msgstr "אירעה שגיאה בעת קבלת רשימת התעודות שנופקו."
+
+#: lms/static/js/instructor_dashboard/data_download.js:122
+msgid "Error generating anonymous IDs. Please try again."
+msgstr ""
+
+#: lms/static/js/instructor_dashboard/data_download.js:148
+#: lms/static/js/instructor_dashboard/data_download_2.js:48
+msgid "Error generating proctored exam results. Please try again."
+msgstr "אירעה שגיאה בעת יצירת תוצאות מבחנים תחת פיקוח. נא נסה שוב."
+
+#: lms/static/js/instructor_dashboard/data_download.js:174
+#: lms/static/js/instructor_dashboard/data_download_2.js:47
+msgid "Error generating survey results. Please try again."
+msgstr "אירעה שגיאה בעת יצירת תוצאות סקר. נא נסה שוב."
+
+#: lms/static/js/instructor_dashboard/data_download.js:200
+#: lms/static/js/instructor_dashboard/data_download_2.js:46
+msgid "Error generating student profile information. Please try again."
+msgstr "שגיאת בזמן יצירת פרופיל סטודנט. נא נסה שוב."
+
+#: lms/static/js/instructor_dashboard/data_download.js:226
+#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js:23
+msgid "Loading"
+msgstr "טוען"
+
+#: lms/static/js/instructor_dashboard/data_download.js:234
+msgid "Error getting student list."
+msgstr "שגיאה בקבלת רשימת הסטודנטים."
+
+#: lms/static/js/instructor_dashboard/data_download.js:300
+#: lms/static/js/instructor_dashboard/data_download_2.js:49
+msgid "Error generating list of students who may enroll. Please try again."
+msgstr "אירעה שגיאה בעת יצירת רשימת סטודנטים שעשויים להירשם. נא נסה שוב."
+
+#: lms/static/js/instructor_dashboard/data_download.js:332
+msgid "Error retrieving grading configuration."
+msgstr "שגיאה בטעינה של קונפיגורציית ציונים."
+
+#: lms/static/js/instructor_dashboard/data_download.js:357
+#: lms/static/js/instructor_dashboard/data_download_2.js:156
+msgid "Error generating grades. Please try again."
+msgstr "שגיאה בזמן יצירת ציונים. נא נסה שוב."
+
+#: lms/static/js/instructor_dashboard/data_download.js:359
+#: lms/static/js/instructor_dashboard/data_download_2.js:45
+msgid "Error generating problem grade report. Please try again."
+msgstr "אירעה שגיאה בעת יצירת דוח דירוג בעיות. נא נסה שוב."
+
+#: lms/static/js/instructor_dashboard/data_download.js:361
+#: lms/static/js/instructor_dashboard/data_download_2.js:44
+msgid "Error generating ORA data report. Please try again."
+msgstr "אירעה שגיאה בעת דוח נתוני ORA. נא נסה שוב."
+
+#: lms/static/js/instructor_dashboard/ecommerce.js:57
+#: lms/static/js/instructor_dashboard/ecommerce.js:77
+msgid ""
+"There was a problem creating the report. Select \"Create Executive Summary\""
+" to try again."
+msgstr "אירעה בעיה בעת יצירת הדוח. בחר \"צור תקציר מנהלים\" כדי לנסות שוב."
+
+#: lms/static/js/instructor_dashboard/ecommerce.js:91
+msgid "Enter the enrollment code."
+msgstr "הזן קוד הרשמה"
+
+#: lms/static/js/instructor_dashboard/ecommerce.js:118
+msgid "Cancel enrollment code"
+msgstr "בטל קוד הרשמה"
+
+#: lms/static/js/instructor_dashboard/ecommerce.js:127
+msgid "Restore enrollment code"
+msgstr "שחזר קוד הרשמה"
+
+#: lms/static/js/instructor_dashboard/ecommerce.js:137
+msgid "Mark enrollment code as unused"
+msgstr "סמן את קוד ההרשמה כ'אינו בשימוש'"
+
+#: lms/static/js/instructor_dashboard/membership.js:111
+#: lms/static/js/instructor_dashboard/membership.js:116
+#: lms/static/js/student_account/views/account_settings_factory.js:155
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:97
+msgid "Username"
+msgstr "שם משתמש"
+
+#: lms/static/js/instructor_dashboard/membership.js:111
+#: lms/static/js/instructor_dashboard/membership.js:116
+msgid "Email"
+msgstr "דואר אלקטרוני"
+
+#: lms/static/js/instructor_dashboard/membership.js:111
+#: lms/static/js/instructor_dashboard/membership.js:116
+#: lms/static/js/instructor_dashboard/membership.js:172
+msgid "Revoke access"
+msgstr "שלול גישה"
+
+#: lms/static/js/instructor_dashboard/membership.js:116
+msgid "Group"
+msgstr "קבוצה"
+
+#: lms/static/js/instructor_dashboard/membership.js:122
+msgid "Enter username or email"
+msgstr "הכנס שם משתמש או כתובת דואר אלקטרוני"
+
+#: lms/static/js/instructor_dashboard/membership.js:156
+msgid "Please enter a username or email."
+msgstr "אנא הכנס שם משתמש או כתובת דואר אלקטרוני"
+
+#: lms/static/js/instructor_dashboard/membership.js:197
+#: lms/static/js/instructor_dashboard/membership.js:1024
+msgid "This role requires a divided discussions scheme."
+msgstr ""
+
+#: lms/static/js/instructor_dashboard/membership.js:261
+#: lms/static/js/instructor_dashboard/membership.js:959
+msgid "Error changing user's permissions."
+msgstr "שגיאה בשינוי אישורי משתמש"
+
+#: lms/static/js/instructor_dashboard/membership.js:271
+msgid ""
+"Could not find a user with username or email address '<%- identifier %>'."
+msgstr "לא ניתן היה לאתר משתמש באמצעות שם המשתמש או כתובת הדואר האלקטרוני '<%- identifier %>'."
+
+#: lms/static/js/instructor_dashboard/membership.js:276
+msgid ""
+"Error: User '<%- username %>' has not yet activated their account. Users "
+"must create and activate their accounts before they can be assigned a role."
+msgstr "שגיאה: משתמש '<%- username %>'  לא הפעיל עדיין את חשבונו. משתמשים חייבים ליצור ולהפעיל את חשבונותיהם לפני שניתן להקצות להם תפקיד."
+
+#: lms/static/js/instructor_dashboard/membership.js:282
+msgid "Error: You cannot remove yourself from the Instructor group!"
+msgstr "שגיאה: אינך יכול להסיר עצמך מקבוצת המדריכים."
+
+#: lms/static/js/instructor_dashboard/membership.js:391
+msgid "Errors"
+msgstr "שגיאות"
+
+#: lms/static/js/instructor_dashboard/membership.js:392
+msgid "The following errors were generated:"
+msgstr "השגיאות הבאות נוצרו:"
+
+#: lms/static/js/instructor_dashboard/membership.js:396
+msgid "Warnings"
+msgstr "אזהרות"
+
+#: lms/static/js/instructor_dashboard/membership.js:397
+msgid "The following warnings were generated:"
+msgstr "האזהרות הבאות נוצרו:"
+
+#: lms/static/js/instructor_dashboard/membership.js:401
+#: lms/static/js/views/fields.js:57
+msgid "Success"
+msgstr "הצלחה"
+
+#: lms/static/js/instructor_dashboard/membership.js:402
+msgid "All accounts were created successfully."
+msgstr "כל החשבונות נוצרו בהצלחה"
+
+#: lms/static/js/instructor_dashboard/membership.js:456
+msgid "Error adding/removing users as beta testers."
+msgstr "שגיאה בהוספה/הסרה של משתמשים כבודקי בטא."
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:527
+msgid "These users were successfully added as beta testers:"
+msgstr "משתמשים אלה נוספו בהצלחה כבודקי בטא:"
+
+#: lms/static/js/instructor_dashboard/membership.js:532
+msgid ""
+"These users could not be added as beta testers because their accounts are "
+"not yet activated:"
+msgstr ""
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:538
+msgid "These users were successfully removed as beta testers:"
+msgstr "משתמשים אלו הוסרו בהצלחה כבודקי בטא:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:550
+msgid "These users were not added as beta testers:"
+msgstr "משתמשים אלה לא נוספו כבודקי בטא:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:562
+msgid "These users were not removed as beta testers:"
+msgstr "משתמשים אלה לא הוסרו כבודקי בטא:"
+
+#: lms/static/js/instructor_dashboard/membership.js:574
+msgid ""
+"Users must create and activate their account before they can be promoted to "
+"beta tester."
+msgstr "משתמשים חייבים ליצור ולהפעיל את החשבון שלהם לפני שיוכלו להתקדם לתפקיד בוחן בטא."
+
+#: lms/static/js/instructor_dashboard/membership.js:576
+msgid "Could not find users associated with the following identifiers:"
+msgstr "לא הצלחתי למצוא משתמשים המשוייכים למזהים הבאים:"
+
+#: lms/static/js/instructor_dashboard/membership.js:606
+msgid "Reason field should not be left blank."
+msgstr "שדה הסיבה אינו יכול להישאר ריק."
+
+#: lms/static/js/instructor_dashboard/membership.js:627
+msgid "Error enrolling/unenrolling users."
+msgstr "שגיאה בהרשמה/ביטול הרשמה של משתמשים."
+
+#: lms/static/js/instructor_dashboard/membership.js:706
+msgid "The following email addresses and/or usernames are invalid:"
+msgstr "כתובות הדואר האלקטרוני הבאות ו/או שמות המשתמש אינן חוקיות:"
+
+#: lms/static/js/instructor_dashboard/membership.js:743
+msgid "Successfully enrolled and sent email to the following users:"
+msgstr "נרשם בהצלחה ושלח דואר אלקטרוני למשתמשים הבאים:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:755
+msgid "Successfully enrolled the following users:"
+msgstr "המשתמשים הבאים נרשמו בהצלחה:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:767
+msgid ""
+"Successfully sent enrollment emails to the following users. They will be "
+"allowed to enroll once they register:"
+msgstr "הודעות הרשמה נשלחו בהצלחה למשתמשים הבאים. הם יהיו רשאים להירשם לקורס לאחר שישלימו את ההרשמה לאתר:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:779
+msgid "These users will be allowed to enroll once they register:"
+msgstr "המשתמשים הבאים יהיו רשאים להירשם לאחר שישלימו את הרשמתם לאתר:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:791
+msgid ""
+"Successfully sent enrollment emails to the following users. They will be "
+"enrolled once they register:"
+msgstr "הודעות הרשמה נשלחו בהצלחה למשתמשים הבאים. הם יהיו רשאים להירשם לקורס לאחר שישלימו את ההרשמה לאתר:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:803
+msgid "These users will be enrolled once they register:"
+msgstr "המשתמשים הבאים יירשמו לקורס ברגע שירשמו לאתר:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:815
+msgid ""
+"Emails successfully sent. The following users are no longer enrolled in the "
+"course:"
+msgstr "הודעות דואר אלקטרוני נשלחו בהצלחה. המשתמשים הבאים כבר אינם רשומים לקורס:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:827
+msgid "The following users are no longer enrolled in the course:"
+msgstr "המשתמשים הבאים כבר אינם רשומים לקורס:"
+
+#: lms/static/js/instructor_dashboard/membership.js:838
+msgid ""
+"These users were not affiliated with the course so could not be unenrolled:"
+msgstr "משתמשים אלה לא היו קשורים לקורס ולכן לא ניתן לבטל הרשמתם:"
+
+#: lms/static/js/instructor_dashboard/send_email.js:67
+msgid "Your message must have a subject."
+msgstr "הודעתך חייבת להכיל נושא."
+
+#: lms/static/js/instructor_dashboard/send_email.js:69
+msgid "Your message cannot be blank."
+msgstr "הודעתך אינה יכולה להיות ריקה."
+
+#: lms/static/js/instructor_dashboard/send_email.js:72
+msgid "Your message must have at least one target."
+msgstr "ההודעה שלך חייבת להכיל יעד אחד לפחות."
+
+#: lms/static/js/instructor_dashboard/send_email.js:77
+msgid ""
+"There are invalid keywords in your email. Check the following keywords and "
+"try again."
+msgstr "ישנן מילות מפתח לא חוקיות בדואר אלקטרוני שלך. אנא בדוק את מילות המפתח הבאות ונסה שוב."
+
+#: lms/static/js/instructor_dashboard/send_email.js:84
+msgid "Yourself"
+msgstr "אתה"
+
+#: lms/static/js/instructor_dashboard/send_email.js:86
+msgid "Everyone who has staff privileges in this course"
+msgstr "כל אחד שיש לו זכויות של צוות בקורס זה"
+
+#: lms/static/js/instructor_dashboard/send_email.js:88
+msgid "All learners who are enrolled in this course"
+msgstr "כל הלומדים שרשומים לקורס זה"
+
+#: lms/static/js/instructor_dashboard/send_email.js:90
+msgid "All learners in the {cohort_name} cohort"
+msgstr "כל הלומדים בקבוצת הלימוד {cohort_name}"
+
+#: lms/static/js/instructor_dashboard/send_email.js:93
+msgid "All learners in the {track_name} track"
+msgstr "כל מי שלומד במסלול {track_name}"
+
+#: lms/static/js/instructor_dashboard/send_email.js:97
+msgid ""
+"Your email message was successfully queued for sending. In courses with a "
+"large number of learners, email messages to learners might take up to an "
+"hour to be sent."
+msgstr "הודעת הדואר אלקטרוני נכנסה בהצלחה להמתנה למשלוח. בקורסים עם מספר גדול של לומדים, ייתכן שייקח עד שעה עד שהודעות הדואר האלקטרוני לכל הלומדים יישלחו."
+
+#: lms/static/js/instructor_dashboard/send_email.js:99
+msgid ""
+"You are sending an email message with the subject {subject} to the following"
+" recipients."
+msgstr "אתה שולח הודעת דואר אלקטרוני עם הנושא {subject} לנמענים הבאים."
+
+#: lms/static/js/instructor_dashboard/send_email.js:104
+msgid "Is this OK?"
+msgstr "האם זה בסדר?"
+
+#: lms/static/js/instructor_dashboard/send_email.js:122
+msgid "Error sending email."
+msgstr "שגיאה בזמן שליחת דואר אלקטרוני."
+
+#: lms/static/js/instructor_dashboard/send_email.js:142
+#: lms/static/js/instructor_dashboard/send_email.js:170
+msgid "There is no email history for this course."
+msgstr "לא קיימת היסטוריה בדואר אלקטרוני לקורס זה."
+
+#: lms/static/js/instructor_dashboard/send_email.js:151
+msgid "There was an error obtaining email task history for this course."
+msgstr "אירעה שגיאה בקבלת היסטורית משימות דואר אלקטרוני לקורס זה."
+
+#: lms/static/js/instructor_dashboard/send_email.js:179
+msgid "There was an error obtaining email content history for this course."
+msgstr "אירעה שגיאה בקבלת היסטורית התוכן של דואר אלקטרוני לקורס זה."
+
+#: lms/static/js/instructor_dashboard/send_email.js:206
+msgid "Send to:"
+msgstr "שלח אל:"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:83
+#: lms/static/js/instructor_dashboard/student_admin.js:114
+#: lms/static/js/instructor_dashboard/student_admin.js:144
+#: lms/static/js/instructor_dashboard/student_admin.js:185
+#: lms/static/js/instructor_dashboard/student_admin.js:237
+#: lms/static/js/instructor_dashboard/student_admin.js:272
+#: lms/static/js/instructor_dashboard/student_admin.js:344
+#: lms/static/js/instructor_dashboard/student_admin.js:489
+#: lms/static/js/instructor_dashboard/student_admin.js:538
+#: lms/static/js/instructor_dashboard/student_admin.js:589
+msgid "Please enter a student email address or username."
+msgstr "נא הכנס את כתובת הדואר אלקטרוני או שם המשתמש של הסטודנט. "
+
+#: lms/static/js/instructor_dashboard/student_admin.js:86
+msgid ""
+"Error getting enrollment status for '<%- student_id %>'. Make sure that the "
+"student identifier is spelled correctly."
+msgstr ""
+
+#: lms/static/js/instructor_dashboard/student_admin.js:90
+msgid "Retrieving enrollment status..."
+msgstr "מאחזר סטטוס הרשמה..."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:117
+msgid ""
+"Error getting student progress url for '<%- student_id %>'. Make sure that "
+"the student identifier is spelled correctly."
+msgstr "שגיאה בקבלת כתובת URL של התקדמות הסטודנט עבור '<%- student_id %>'. ודא שמזהה הסטודנט מאוית כהלכה."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:148
+#: lms/static/js/instructor_dashboard/student_admin.js:190
+#: lms/static/js/instructor_dashboard/student_admin.js:242
+#: lms/static/js/instructor_dashboard/student_admin.js:409
+#: lms/static/js/instructor_dashboard/student_admin.js:461
+#: lms/static/js/instructor_dashboard/student_admin.js:494
+#: lms/static/js/instructor_dashboard/student_admin.js:543
+#: lms/static/js/instructor_dashboard/student_admin.js:628
+msgid "Please enter a problem location."
+msgstr "נא להזין את מיקום בעיה."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:155
+msgid ""
+"Success! Problem attempts reset for problem '<%- problem_id %>' and student "
+"'<%- student_id %>'."
+msgstr "הפעולה איפוס ניסיונות עבור הלומד הסתיימה בהצלחה!\" '<%- problem_id %>' וסטודנט '<%- student_id %>'."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:156
+msgid ""
+"Error resetting problem attempts for problem '<%- problem_id %>' and student"
+" '<%- student_id %>'. Make sure that the problem and student identifiers are"
+" complete and correct."
+msgstr ""
+
+#: lms/static/js/instructor_dashboard/student_admin.js:193
+msgid ""
+"Delete student '<%- student_id %>'s state on problem '<%- problem_id %>'?"
+msgstr "האם למחוק את מצב הסטודנט  '<%- student_id %>' בגלל '<%- problem_id %>'?"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:204
+msgid ""
+"Error deleting student '<%- student_id %>'s state on problem '<%- problem_id"
+" %>'. Make sure that the problem and student identifiers are complete and "
+"correct."
+msgstr "טעות במחיקת מצב הבעיה של הסטודנט '<%- student_id %>' בבעיה '<%- problem_id %>'. ודא כי מזהי הבעיה והסטודנט שלמים ומדויקים. "
+
+#: lms/static/js/instructor_dashboard/student_admin.js:215
+msgid "Module state successfully deleted."
+msgstr "מצב מודול נמחק בהצלחה"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:249
+msgid ""
+"Error getting task history for problem '<%- problem_id %>' and student '<%- "
+"student_id %>'. Make sure that the problem and student identifiers are "
+"complete and correct."
+msgstr "שגיאה בזמן קבלת היסטוריית משימות עבור הבעיה '<%- problem_id %>' והסטודנט  '<%- student_id %>'. ודא שמזהה הבעיה והסטודנט הם מלאים ונכונים."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:286
+msgid "Entrance exam attempts is being reset for student '{student_id}'."
+msgstr "בחינת כניסה עבור סטודנט '{student_id}' בתהליך איפוס כעת."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:294
+msgid ""
+"Error resetting entrance exam attempts for student '{student_id}'. Make sure"
+" student identifier is correct."
+msgstr "טעות באיפוס ניסיונות לבחינת הכניסה עבור סטודנט  '{student_id}'. ודא כי מזהה הסטודנט מדויק. "
+
+#: lms/static/js/instructor_dashboard/student_admin.js:312
+#: lms/static/js/instructor_dashboard/student_admin.js:379
+msgid "Enter a student's username or email address."
+msgstr "הזן שם משתמש או כתובת דואר אלקטרוני של סטודנט"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:314
+msgid ""
+"Do you want to allow this student ('{student_id}') to skip the entrance "
+"exam?"
+msgstr "האם אתה מעוניין לאפשר לסטודנט זה ('{student_id}')  לדלג על מבחן הכניסה? "
+
+#: lms/static/js/instructor_dashboard/student_admin.js:332
+msgid ""
+"An error occurred. Make sure that the student's username or email address is"
+" correct and try again."
+msgstr "אירעה שגיאה. אנא ודא כי שם המשתמש של הסטודנט או כתובת הדואר האלקטרוני שלו נכונה ונסה שוב."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:358
+msgid "Entrance exam state is being deleted for student '{student_id}'."
+msgstr "מצב בחינת הכניסה נמחק עבור סטודנט '{student_id}'."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:366
+msgid ""
+"Error deleting entrance exam state for student '{student_id}'. Make sure "
+"student identifier is correct."
+msgstr "טעות במחיקה של מצב מבחן הכניסה עבור סטודנט '{student_id}'. ודא שמזהה הסטודנט נכון. "
+
+#: lms/static/js/instructor_dashboard/student_admin.js:395
+msgid ""
+"Error getting entrance exam task history for student '{student_id}'. Make "
+"sure student identifier is correct."
+msgstr "שגיאה בקבלת ההיסטוריה של המשימות במבחן הכניסה עבור סטודנט '{student_id}'. ודא שמזהה הסטודנט נכון.  "
+
+#: lms/static/js/instructor_dashboard/student_admin.js:412
+msgid "Reset attempts for all students on problem '<%- problem_id %>'?"
+msgstr "אפס ניסיונות עבור כל הסטודנטים בבעיה  '<%- problem_id %>'? "
+
+#: lms/static/js/instructor_dashboard/student_admin.js:421
+msgid ""
+"Successfully started task to reset attempts for problem '<%- problem_id %>'."
+" Click the 'Show Task Status' button to see the status of the task."
+msgstr "הותחלה בהצלחה המשימה לאיפוס נסיונות עבור בעיה '<%- problem_id %>'. לחץ על לחצן 'הצג סטטוס ניסיונות' כדי לראות את סטטוס המשימה."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:425
+msgid ""
+"Error starting a task to reset attempts for all students on problem '<%- "
+"problem_id %>'. Make sure that the problem identifier is complete and "
+"correct."
+msgstr "שגיאה בהתחלת משימה לאיפוס ניסיונות לכל הסטודנטים בבעיה '<%- problem_id %>'. ודא כי מזהה הבעיה מושלם ונכון."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:474
+msgid "Error listing task history for this student and problem."
+msgstr "שגיאה ברישום היסטורית משימות עבור סטודנט זה ובעיה זו."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:502
+msgid ""
+"Started rescore problem task for problem '<%- problem_id %>' and student "
+"'<%- student_id %>'. Click the 'Show Task Status' button to see the status "
+"of the task."
+msgstr "הופעלה משימה לחישוב ציונים מחדש עבור בעיה  '<%- problem_id %>' וסטודנט  '<%- student_id %>'. לחץ על לחצן 'הצג סטטוס משימות' כדי לראות את סטטוס המשימה."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:507
+msgid ""
+"Error starting a task to rescore problem '<%- problem_id %>' for student "
+"'<%- student_id %>'. Make sure that the the problem and student identifiers "
+"are complete and correct."
+msgstr "שגיאה בזמן הפעלת משימה לחישוב ציונים מחדש עבור בעיה  '<%- problem_id %>' של סטודנט '<%- student_id %>'. ודא שמזהה הבעיה והתלמיד הם מלאים ונכונים."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:548
+msgid "Please enter a score."
+msgstr "נא להזין ציון"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:556
+msgid ""
+"Started task to override the score for problem '<%- problem_id %>' and "
+"student '<%- student_id %>'. Click the 'Show Task Status' button to see the "
+"status of the task."
+msgstr ""
+
+#: lms/static/js/instructor_dashboard/student_admin.js:561
+msgid ""
+"Error starting a task to override score for problem '<%- problem_id %>' for "
+"student '<%- student_id %>'. Make sure that the the score and the problem "
+"and student identifiers are complete and correct."
+msgstr ""
+
+#: lms/static/js/instructor_dashboard/student_admin.js:603
+msgid ""
+"Started entrance exam rescore task for student '{student_id}'. Click the "
+"'Show Task Status' button to see the status of the task."
+msgstr "החל תהליך ציון מחדש עבור מבחן כניסה לסטודנט '{student_id}'. לחץ על לחצן 'הצג סטטוס משימות' כדי להציג את סטטוס המשימה."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:611
+msgid ""
+"Error starting a task to rescore entrance exam for student '{student_id}'. "
+"Make sure that entrance exam has problems in it and student identifier is "
+"correct."
+msgstr "שגיאה בעת מתן ציון מחדש למבחן הכניסה לסטודנט  '{student_id}'. ודא שיש בעיות במבחן הכניסה וכי מזהה הסטודנט נכון."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:631
+msgid "Rescore problem '<%- problem_id %>' for all students?"
+msgstr "לתת ציון מחדש עבור בעיה '<%- problem_id %>' לכלל הסטודנטים? "
+
+#: lms/static/js/instructor_dashboard/student_admin.js:641
+msgid ""
+"Successfully started task to rescore problem '<%- problem_id %>' for all "
+"students. Click the 'Show Task Status' button to see the status of the task."
+msgstr "הותחלה בהצלחה המשימה לתת ציון מחדש לבעיה '<%- problem_id %>' עבור כלל הסטודנטים. לחץ על לחצן 'הצג סטטוס ניסיונות' כדי לראות את סטטוס המשימה."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:645
+msgid ""
+"Error starting a task to rescore problem '<%- problem_id %>'. Make sure that"
+" the problem identifier is complete and correct."
+msgstr "שגיאה בהתחלת משימה לתת ציון מחדש לבעיה  '<%- problem_id %>'. ודא שמזהה הבעיה מושלם ונכון. "
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/js/instructor_dashboard/util.js:63
+msgid "Task Type"
+msgstr "סוג משימה"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/js/instructor_dashboard/util.js:72
+msgid "Task inputs"
+msgstr "תשומות משימה"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/js/instructor_dashboard/util.js:81
+msgid "Task ID"
+msgstr "מזהה משימה"
+
+#. Translators: a "Requester" is a username that requested a task such as
+#. sending email
+#: lms/static/js/instructor_dashboard/util.js:90
+msgid "Requester"
+msgstr "מבקש"
+
+#. Translators: A timestamp of when a task (eg, sending email) was submitted
+#. appears after this
+#: lms/static/js/instructor_dashboard/util.js:99
+msgid "Submitted"
+msgstr "הוגש"
+
+#. Translators: The length of a task (eg, sending email) in seconds appears
+#. this
+#: lms/static/js/instructor_dashboard/util.js:108
+msgid "Duration (sec)"
+msgstr "משך זמן (שניות)"
+
+#. Translators: The state (eg, "In progress") of a task (eg, sending email)
+#. appears after this.
+#: lms/static/js/instructor_dashboard/util.js:117
+msgid "State"
+msgstr "מדינה"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/js/instructor_dashboard/util.js:126
+msgid "Task Status"
+msgstr "מצב המשימה"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/js/instructor_dashboard/util.js:135
+msgid "Task Progress"
+msgstr "התקדמות המשימה"
+
+#: lms/static/js/instructor_dashboard/util.js:150
+msgid ""
+"An error occurred retrieving your email. Please try again later, and contact"
+" technical support if the problem persists."
+msgstr "אירעה שגיאה באחזור הדואר האלקטרוני שלך. אנא נסה שוב מאוחר יותר. אם הבעיה נמשכת, פנה לתמיכה טכנית. "
+
+#: lms/static/js/instructor_dashboard/util.js:206
+msgid "Sent By"
+msgstr "נשלח על ידי"
+
+#: lms/static/js/instructor_dashboard/util.js:214
+msgid "Sent To"
+msgstr "נשלח אל"
+
+#: lms/static/js/instructor_dashboard/util.js:222
+msgid "Time Sent"
+msgstr "זמן השליחה:"
+
+#: lms/static/js/instructor_dashboard/util.js:229
+msgid "Number Sent"
+msgstr "מספר שנשלח"
+
+#: lms/static/js/instructor_dashboard/util.js:270
+msgid "Copy Email To Editor"
+msgstr "העתק כתובת דואר אלקטרוני לעורך"
+
+#: lms/static/js/instructor_dashboard/util.js:286
+msgid "Subject:"
+msgstr "נושא:"
+
+#: lms/static/js/instructor_dashboard/util.js:287
+msgid "Sent By:"
+msgstr "נשלח על ידי:"
+
+#: lms/static/js/instructor_dashboard/util.js:288
+msgid "Time Sent:"
+msgstr "זמן השליחה:"
+
+#: lms/static/js/instructor_dashboard/util.js:289
+msgid "Sent To:"
+msgstr "נשלח אל:"
+
+#: lms/static/js/instructor_dashboard/util.js:301
+msgid "Message:"
+msgstr "הודעה:"
+
+#: lms/static/js/instructor_dashboard/util.js:398
+msgid "No tasks currently running."
+msgstr "אין משימות בהרצה כרגע."
+
+#: lms/static/js/instructor_dashboard/util.js:500
+msgid "File Name"
+msgstr "שם הקובץ"
+
+#: lms/static/js/instructor_dashboard/util.js:501
+msgid ""
+"Links are generated on demand and expire within 5 minutes due to the "
+"sensitive nature of student information."
+msgstr "קישורים נוצרים לפי דרישה ותוקפם פג לאחר 5 דקות בגלל רגישות מידע על הסטודנט."
+
+#: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:107
+msgid ""
+"To access the courses available to you through {enterpriseName}, visit the "
+"{enterpriseName} dashboard."
+msgstr ""
+
+#: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:125
+msgid "Go to dashboard"
+msgstr "מעבר ללוח הבקרה"
+
+#: lms/static/js/learner_dashboard/models/course_card_model.js:164
+msgid "(Self-paced) Starts {start}"
+msgstr "(קצב עצמאי) מתחיל ב־{start}"
+
+#: lms/static/js/learner_dashboard/models/course_card_model.js:165
+msgid "(Self-paced) Started {start}"
+msgstr "(קצב עצמאי) החל ב־{start}"
+
+#: lms/static/js/learner_dashboard/models/course_card_model.js:167
+msgid "(Self-paced) Ends {end}"
+msgstr "(קצב עצמאי) מסתיים ב־{end}"
+
+#: lms/static/js/learner_dashboard/models/course_card_model.js:169
+msgid "(Self-paced) Ended {end}"
+msgstr "(קצב עצמאי) הסתיים ב־{end}"
+
+#: lms/static/js/learner_dashboard/models/course_card_model.js:175
+msgid "Starts {start}"
+msgstr "מתחיל ב־{start}"
+
+#: lms/static/js/learner_dashboard/models/course_card_model.js:176
+msgid "Started {start}"
+msgstr "התחיל ב: {start}"
+
+#: lms/static/js/learner_dashboard/models/course_card_model.js:178
+msgid "Ends {end}"
+msgstr "מסתיים ב־{end}"
+
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:206
+msgid "You must select a session to access the course."
+msgstr ""
+
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:233
+msgid "There was an error. Please reload the page and try again."
+msgstr "אירעה שגיאה. יש לטעון מחדש את הדף ולנסות שוב."
+
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:270
+msgid "Change Session"
+msgstr "שינוי סשן"
+
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:270
+msgid "Select Session"
+msgstr "בחירת סשן"
+
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:272
+msgid "Leave Current Session"
+msgstr "השארת הסשן הנוכחי"
+
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:307
+msgid "Are you sure you want to select this session?"
+msgstr ""
+
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:308
+msgid "Are you sure you want to change to a different session?"
+msgstr ""
+
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:310
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:313
+msgid "Any course progress or grades from your current session will be lost."
+msgstr ""
+
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:312
+msgid "Are you sure that you want to leave this session?"
+msgstr ""
+
+#: lms/static/js/learner_dashboard/views/entitlement_unenrollment_view.js:24
+msgid ""
+"Your unenrollment request could not be processed. Please try again later."
+msgstr ""
+
+#: lms/static/js/learner_dashboard/views/entitlement_unenrollment_view.js:109
+msgid ""
+"Are you sure you want to unenroll from {courseName} ({courseNumber})? You "
+"will be refunded the amount you paid."
+msgstr ""
+
+#: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:54
+msgid "{type} Progress"
+msgstr ""
+
+#: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:57
+#: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:75
+msgid "Earned Certificates"
+msgstr "תעודות שהרווחת"
+
+#: lms/static/js/learner_dashboard/views/program_details_view.js:124
+msgid "Enrolled"
+msgstr ""
+
+#: lms/static/js/staff_debug_actions.js:89
+msgid "Successfully reset the attempts for user {user}"
+msgstr "ניסיונות אופסו בהצלחה עבור משתמש  {user}"
+
+#: lms/static/js/staff_debug_actions.js:90
+msgid "Failed to reset attempts for user."
+msgstr "נכשל איפוס הניסיונות למשתמש."
+
+#: lms/static/js/staff_debug_actions.js:101
+msgid "Successfully deleted student state for user {user}"
+msgstr "הושלמה בהצלחה מחיקת מצב הסטודנט עבור משתמש {user}"
+
+#: lms/static/js/staff_debug_actions.js:102
+msgid "Failed to delete student state for user."
+msgstr "נכשלה מחיקת מצב הסטודנט עבור המשתמש."
+
+#: lms/static/js/staff_debug_actions.js:113
+msgid "Successfully rescored problem for user {user}"
+msgstr "הושלם בהצלחה מתן ציון מחדש עבור משתמש  {user}"
+
+#: lms/static/js/staff_debug_actions.js:114
+msgid "Failed to rescore problem for user."
+msgstr "נכשל תהליך מתן הציון מחדש עבור בעיה למשתמש."
+
+#: lms/static/js/staff_debug_actions.js:125
+msgid "Successfully rescored problem to improve score for user {user}"
+msgstr "הושלם בהצלחה מתן ציון מחדש לבעיה עבור משתמש  {user}"
+
+#: lms/static/js/staff_debug_actions.js:126
+msgid "Failed to rescore problem to improve score for user."
+msgstr "נכשל מתן ציון מחדש לבעיה על מנת לשפר ציון משתמש."
+
+#: lms/static/js/staff_debug_actions.js:137
+msgid "Successfully overrode problem score for {user}"
+msgstr "ציון הבעיה שוכתב בהצלחה עבור  {user}"
+
+#: lms/static/js/staff_debug_actions.js:138
+msgid "Could not override problem score for {user}."
+msgstr "לא ניתן לשכתב את ציון הבעיה עבור {user}."
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:93
+msgid "Enter and confirm your new password."
+msgstr "הזן ואשר את סיסמתך החדשה."
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:99
+msgid "New Password"
+msgstr "סיסמה חדשה"
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:108
+msgid "Confirm Password"
+msgstr "אשר סיסמה"
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:111
+msgid "Passwords do not match."
+msgstr "הסיסמאות אינן תואמות."
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:142
+msgid "Reset My Password"
+msgstr "אפס סיסמה"
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:143
+#: lms/static/js/student_account/views/account_settings_factory.js:169
+#: lms/static/js/student_account/views/account_settings_factory.js:173
+msgid "Reset Your Password"
+msgstr "אפס את סיסמתך"
+
+#: lms/static/js/student_account/components/PasswordResetInput.jsx:15
+msgid "Error: "
+msgstr "שגיאה: "
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:42
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:96
+msgid ""
+"You may also lose access to verified certificates and other program "
+"credentials like MicroMasters certificates. If you want to make a copy of "
+"these for your records before proceeding with deletion, follow the "
+"instructions for {htmlStart}printing or downloading a certificate{htmlEnd}."
+msgstr ""
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:52
+msgid ""
+"Before proceeding, please {htmlStart}unlink all social media "
+"accounts{htmlEnd}."
+msgstr ""
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:60
+msgid "Before proceeding, please {htmlStart}{emailMsg}{htmlEnd}."
+msgstr ""
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:69
+msgid ""
+"{htmlStart}Want to change your email, name, or password instead?{htmlEnd}"
+msgstr ""
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:77
+msgid ""
+"{strongStart}Warning: Account deletion is permanent.{strongEnd} Please read "
+"the above carefully before proceeding. This is an irreversible action, and "
+"{strongStart}you will no longer be able to use the same email on "
+"{platformName}.{strongEnd}"
+msgstr ""
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:86
+msgid ""
+"Please note: Deletion of your account and personal data is permanent and "
+"cannot be undone. {platformName} will not be able to recover your account or"
+" the data that is deleted."
+msgstr ""
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:93
+msgid ""
+"Once your account is deleted, you cannot use it to take courses on the "
+"{platformName} app, {siteName}, or any other site hosted by {platformName}."
+msgstr ""
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:101
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:119
+msgid ""
+"This includes access to {siteName} from your employer’s or university’s "
+"system{additionalSiteSpecificDeletionText}."
+msgstr ""
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:110
+msgid "We’re sorry to see you go!"
+msgstr "מבאס לשמוע שבחרת לעזוב!"
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:132
+#: lms/static/js/student_account/views/account_settings_factory.js:350
+msgid "Delete My Account"
+msgstr "מחיקת החשבון שלי"
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:55
+msgid "Password is incorrect"
+msgstr "הסיסמה שגויה"
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:55
+msgid "Unable to delete account"
+msgstr "לא ניתן למחוק חשבון"
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:56
+msgid "Please re-enter your password."
+msgstr "נא למלא את הסיסמה שלך מחדש."
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:56
+msgid ""
+"Sorry, there was an error trying to process your request. Please try again "
+"later."
+msgstr ""
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:77
+msgid "A Password is required"
+msgstr "נדרשת סיסמה"
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:104
+msgid ""
+"You have selected “Delete my account.” Deletion of your account and personal"
+" data is permanent and cannot be undone. {platformName} will not be able to "
+"recover your account or the data that is deleted."
+msgstr ""
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:111
+msgid ""
+"If you proceed, you will be unable to use this account to take courses on "
+"the {platformName} app, {siteName}, or any other site hosted by "
+"{platformName}."
+msgstr ""
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:175
+msgid ""
+"If you still wish to continue and delete your account, please enter your "
+"account password:"
+msgstr "אם עדיין ברצונך להמשיך ולמחוק את החשבוןן שלך, אנא הזן את סיסמת החשבון שלך:"
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:193
+msgid "Yes, Delete"
+msgstr "כן, למחוק"
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:207
+msgid "We're sorry to see you go! Your account will be deleted shortly."
+msgstr "מבאס לשמוע שבחרת לעזוב! החשבון שלך יימחק תוך זמן קצר."
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:209
+msgid ""
+"Account deletion, including removal from email lists, may take a few weeks "
+"to fully process through our system. If you want to opt-out of emails before"
+" then, please unsubscribe from the footer of any email."
+msgstr ""
+
+#: lms/static/js/student_account/tos_modal.js:47
+msgid "Terms of Service and Honor Code"
+msgstr "תנאי שימוש וקוד אתי"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:107
+msgid "Saving your email preference"
+msgstr "שמירת העדפת הדואר האלקטרוני שלך"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:125
+msgid "Enrolling you in the selected course"
+msgstr "הנך נרשם לקורס הנבחר"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:157
+msgid "Adding the selected course to your cart"
+msgstr "הוספת הקורס שנבחר לעגלת הקניות שלך"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:170
+msgid "Loading your courses"
+msgstr "טוען את הקורסים שלך"
+
+#: lms/static/js/student_account/views/FormView.js:19
+#: lms/static/js/student_account/views/RegisterView.js:148
+msgid "An error occurred."
+msgstr "אירעה שגיאה."
+
+#. Translators: This string is appended to optional field labels on the
+#. student login, registration, and
+#. profile forms.
+#: lms/static/js/student_account/views/FormView.js:32
+msgid "(optional)"
+msgstr "(אופציונאלי)"
+
+#: lms/static/js/student_account/views/LoginView.js:38
+msgid "We couldn't sign you in."
+msgstr "לא הצלחנו לחבר אותך לאתר."
+
+#: lms/static/js/student_account/views/LoginView.js:108
+#, javascript-format
+msgid "An error occurred when signing you in to %s."
+msgstr "אירעה שגיאה בזמן החיבור שלך ל-%s."
+
+#: lms/static/js/student_account/views/LoginView.js:167
+msgid "Check Your Email"
+msgstr "בדוק את הדואר האלקטרוני שלך"
+
+#: lms/static/js/student_account/views/LoginView.js:169
+msgid ""
+"{paragraphStart}You entered {boldStart}{email}{boldEnd}. If this email "
+"address is associated with your {platform_name} account, we will send a "
+"message with password recovery instructions to this email "
+"address.{paragraphEnd}{paragraphStart}If you do not receive a password reset"
+" message after 1 minute, verify that you entered the correct email address, "
+"or check your spam folder.{paragraphEnd}{paragraphStart}If you need further "
+"assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
+msgstr ""
+
+#: lms/static/js/student_account/views/LoginView.js:218
+msgid ""
+"An error has occurred. Try refreshing the page, or check your Internet "
+"connection."
+msgstr "אירעה שגיאה. נסה לרענן את הדף או בדוק את חיבור האינטרנט."
+
+#: lms/static/js/student_account/views/LoginView.js:221
+msgid ""
+"In order to sign in, you need to activate your "
+"account.{line_break}{line_break}We just sent an activation link to "
+"{strong_start} {email} {strong_end}. If  you do not receive an email, check "
+"your spam folders or  {anchorStart}contact {platform_name} "
+"Support{anchorEnd}."
+msgstr ""
+
+#: lms/static/js/student_account/views/LoginView.js:245
+msgid "An unexpected error has occurred."
+msgstr "שגיאה בלתי צפויה התרחשה"
+
+#: lms/static/js/student_account/views/LoginView.js:273
+msgid ""
+"You have successfully signed into %(currentProvider)s, but your "
+"%(currentProvider)s account does not have a linked %(platformName)s account."
+" To link your accounts, sign in now using your %(platformName)s password."
+msgstr "נכנסת בהצלחה באמצעות חשבון  ה%(currentProvider)s שלך, אך נראה שחשבון ה%(currentProvider)s שלך אינו מקושר לחשבון ב%(platformName)s. בכדי לקשר בין שני החשבונות, נא להיכנס באמצעות הסיסמה שלך ב%(platformName)s."
+
+#: lms/static/js/student_account/views/RegisterView.js:44
+msgid "We couldn't create your account."
+msgstr "לא ניתן ליצור את החשבון שלך. "
+
+#: lms/static/js/student_account/views/RegisterView.js:66
+msgid "Create Account"
+msgstr "צור חשבון"
+
+#: lms/static/js/student_account/views/RegisterView.js:337
+msgid "(required)"
+msgstr "(נדרש)"
+
+#: lms/static/js/student_account/views/RegisterView.js:514
+msgid "You've successfully signed into %(currentProvider)s."
+msgstr "התחברת בהצלחה ל%(currentProvider)s."
+
+#: lms/static/js/student_account/views/RegisterView.js:516
+msgid ""
+"We just need a little more information before you start learning with "
+"%(platformName)s."
+msgstr "אנו זקוקים למידע נוסף לפני שתתחיל ללמוד עם %(platformName)s."
+
+#: lms/static/js/student_account/views/account_settings_factory.js:56
+msgid ""
+"Your profile settings are managed by {enterprise_name}. Contact your "
+"administrator or {link_start}edX Support{link_end} for help."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:73
+msgid "Email Address (Sign In)"
+msgstr "כתובת דוא\"ל (להתחברות)"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:76
+msgid ""
+"You receive messages from {platform_name} and course teams at this address."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:93
+msgid "Recovery Email Address"
+msgstr "כתובת דוא\"ל לשיחזור"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:95
+msgid ""
+"You may access your account with this address if single-sign on or access to"
+" your primary email is not available."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:101
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:104
+msgid "Full Name"
+msgstr "שם מלא"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:103
+msgid ""
+"The name that is used for ID verification and that appears on your "
+"certificates."
+msgstr "השם שמשמש לאימות תעודת זהות ושמופיע בתעודות שלך."
+
+#: lms/static/js/student_account/views/account_settings_factory.js:119
+msgid "Country or Region of Residence"
+msgstr "ארץ או אזור מגורים:"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:123
+msgid "The country or region where you live."
+msgstr "מדינה או מחוז מגורים"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:145
+#: lms/static/js/student_account/views/account_settings_factory.js:366
+msgid "Basic Account Information"
+msgstr "פרטי חשבון בסיסיים"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:146
+msgid "These settings include basic information about your account."
+msgstr "ההגדרות האלו כוללות מידע בסיסי על החשבון שלך."
+
+#: lms/static/js/student_account/views/account_settings_factory.js:158
+msgid ""
+"The name that identifies you on {platform_name}. You cannot change your "
+"username."
+msgstr "שם המשתמש שבאמצעותו מתבצע זיהוי ב {platform_name}. לא ניתן עוד לבצע בו שינויים"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:168
+msgid "Password"
+msgstr "סיסמה"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:175
+msgid "Check your email account for instructions to reset your password."
+msgstr "לקבלת הוראות איפוס, אנא בדוק את חשבון הדואר האלקטרוני שלך."
+
+#: lms/static/js/student_account/views/account_settings_factory.js:186
+msgid ""
+"The language used throughout this site. This site is currently available in "
+"a limited number of languages. Changing the value of this field will cause "
+"the page to refresh."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:199
+msgid "Time Zone"
+msgstr "אזור זמן"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:201
+msgid ""
+"Select the time zone for displaying course dates. If you do not specify a "
+"time zone, course dates, including assignment deadlines, will be displayed "
+"in your browser's local time zone."
+msgstr "בחר את אזור הזמן לצורך תצוגת תאריכי קורס. במידה ולא תציין את אזור הזמן, תאריכי הקורס כולל תאריכי יעד של משימות יוצגו בדפדפן כאזור הזמן המקומי שלך."
+
+#: lms/static/js/student_account/views/account_settings_factory.js:203
+msgid "All Time Zones"
+msgstr "כל אזורי הזמן"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:205
+msgid "Default (Local Time Zone)"
+msgstr "ברירת מחדל (אזורי זמן מקומיים)"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:213
+msgid "Additional Information"
+msgstr "מידע נוסף"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:218
+msgid "Education Completed"
+msgstr "רמת השכלה"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:227
+msgid "Gender"
+msgstr "מגדר"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:236
+msgid "Year of Birth"
+msgstr "שנת לידה"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:245
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:147
+msgid "Preferred Language"
+msgstr "שפה מועדפת"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:270
+msgid ""
+"We've sent a confirmation message to {new_secondary_email_address}. Click "
+"the link in the message to update your secondary email address."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:318
+msgid "Social Media Links"
+msgstr "חיבורים לרשתות חברתיות"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:319
+msgid ""
+"Optionally, link your personal accounts to the social media icons on your "
+"edX profile."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:330
+msgid "{platform_display_name} Link"
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:335
+msgid ""
+"Enter your {platform_display_name} username or the URL to your "
+"{platform_display_name} page. Delete the URL to remove the link."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:374
+#: lms/static/js/student_account/views/account_settings_view.js:43
+msgid "Linked Accounts"
+msgstr "חשבונות מקושרים"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:376
+msgid ""
+"You can link your social media accounts to simplify signing in to "
+"{platform_name}."
+msgstr "ניתן לקשר את חשבונות המדיה החברתית כדי לפשט את החיבור ל{platform_name}."
+
+#: lms/static/js/student_account/views/account_settings_factory.js:398
+msgid "ORDER NAME"
+msgstr "שם הזמנה"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:399
+msgid "ORDER PLACED"
+msgstr "ההזמנה נשלחה"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:400
+msgid "TOTAL"
+msgstr "סך הכל"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:401
+msgid "ORDER NUMBER"
+msgstr "מספר הזמנה"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:407
+msgid "My Orders"
+msgstr "ההזמנות שלי"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:409
+msgid ""
+"This page contains information about orders that you have placed with "
+"{platform_name}."
+msgstr "עמוד זה מכיל מידע על הזמנות שביצעת באמצעות {platform_name}."
+
+#: lms/static/js/student_account/views/account_settings_fields.js:45
+msgid ""
+"We've sent a confirmation message to {new_email_address}. Click the link in "
+"the message to update your email address."
+msgstr "שלחנו הודעת אישור אל {new_email_address}. לחץ על הקישור שבהודעה כדי לעדכן את כתובת הדואר האלקטרוני שלך."
+
+#: lms/static/js/student_account/views/account_settings_fields.js:88
+msgid ""
+"You must sign out and sign back in before your language changes take effect."
+msgstr "עליך לצאת מהחשבון ולהכנס חזרה על מנת ששינויי השפה ייכנסו לתוקף."
+
+#: lms/static/js/student_account/views/account_settings_fields.js:209
+msgid ""
+"We've sent a message to {email}. Click the link in the message to reset your"
+" password. Didn't receive the message? Contact {anchorStart}technical "
+"support{anchorEnd}."
+msgstr "שלחנו הודעה לכתובת {email}. יש ללחוץ על קישור ההודעה כדי לאפס את סיסמתך. לא קבלת את ההודעה? נא ליצור קשר עם {anchorStart}התמיכה{anchorEnd}."
+
+#: lms/static/js/student_account/views/account_settings_fields.js:348
+msgid "Link your {accountName} account"
+msgstr "קשר את חשבון {accountName} שלך"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:352
+msgid "Unlink This Account"
+msgstr "הסר את הקישור של חשבון זה"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:355
+msgid ""
+"You can use your {accountName} account to sign in to your {platformName} "
+"account."
+msgstr "ניתן לקשר את חשבון {accountName} שלך כדי להתחבר לחשבון {platformName}."
+
+#: lms/static/js/student_account/views/account_settings_fields.js:359
+msgid "Unlink your {accountName} account"
+msgstr "הסר את הקישור של חשבון {accountName} שלך"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:363
+msgid "Link Your Account"
+msgstr "קשר את חשבונך"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:366
+msgid ""
+"Link your {accountName} account to your {platformName} account and use "
+"{accountName} to sign in to {platformName}."
+msgstr "קשר את חשבון {accountName} שלך לחשבון {platformName} והשתמש ב{accountName} כדי להתחבר ל{platformName}."
+
+#: lms/static/js/student_account/views/account_settings_fields.js:423
+msgid "Unlinking"
+msgstr "מסיר קישור"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:423
+msgid "Linking"
+msgstr "מקשר"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:427
+msgid "Successfully unlinked."
+msgstr "הסרת הקישור בוצעה בהצלחה."
+
+#: lms/static/js/verify_student/views/image_input_view.js:93
+msgid "Image Upload Error"
+msgstr "שגיאה בהעלאת תמונה"
+
+#: lms/static/js/verify_student/views/image_input_view.js:94
+msgid "Please verify that you have uploaded a valid image (PNG and JPEG)."
+msgstr "אנא ודא שהעלת תמונה חוקית (PNG ו- JPEG)."
+
+#: lms/static/js/verify_student/views/incourse_reverify_view.js:83
+#: lms/static/js/verify_student/views/review_photos_step_view.js:72
+msgid "An error has occurred. Please try again later."
+msgstr "אירעה שגיאה. אנא נסה שוב מאוחר יותר."
+
+#: lms/static/js/verify_student/views/incourse_reverify_view.js:93
+#: lms/static/js/verify_student/views/review_photos_step_view.js:82
+msgid "Could not submit photos"
+msgstr "לא ניתן להעלות תמונות"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:50
+msgid "Professional Education Verified Certificate"
+msgstr "תעודה מאומתת מקצועית"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:52
+msgid "Professional Education"
+msgstr "השכלה מקצועית"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:55
+msgid "Verified Certificate upgrade"
+msgstr "שדרוג תעודה מאומתת"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:57
+msgid "Verified Certificate"
+msgstr "תעודה מאומתת"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:64
+msgid "Checkout"
+msgstr "תשלום"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:66
+msgid "Checkout with PayPal"
+msgstr "תשלום עם PayPal"
+
+#. Translators: 'processor' is the name of a third-party payment processing
+#. vendor (example: "PayPal")
+#: lms/static/js/verify_student/views/make_payment_step_view.js:70
+msgid "Checkout with {processor}"
+msgstr "תשלום עם {processor}"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:124
+msgid "All payment options are currently unavailable."
+msgstr "כל אפשרויות התשלום אינן זמינות כרגע."
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:125
+msgid "Try the transaction again in a few minutes."
+msgstr "נסה לבצע את ההעברה שוב בעוד מספר דקות."
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:213
+#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:7
+#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js:22
+msgid "An error has occurred. Please try again."
+msgstr "אירעה שגיאה. אנא נסה שוב."
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:220
+msgid "Could not submit order"
+msgstr "לא ניתן לשלוח את ההזמנה"
+
+#: lms/static/js/verify_student/views/reverify_view.js:48
+msgid "Take a photo of your ID"
+msgstr "צלם תמונה של התעודה המזהה שלך."
+
+#: lms/static/js/verify_student/views/reverify_view.js:49
+msgid "Review your info"
+msgstr "סקור את המידע שלך"
+
+#: lms/static/js/verify_student/views/step_view.js:51
+msgid "An error has occurred. Please try reloading the page."
+msgstr "אירעה שגיאה. אנא נסה לטעון מחדש את העמוד."
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:108
+msgid "Video Capture Error"
+msgstr "שגיאה בהעברת וידאו"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:109
+msgid ""
+"Please verify that your webcam is connected and that you have allowed your "
+"browser to access it."
+msgstr "אנא ודא שמצלמת האינטרנט שלך מחוברת ושאפשרת לדפדפן שלך לגשת אליה."
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:187
+msgid "No Webcam Detected"
+msgstr "לא נמצאה מצלמה"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:188
+msgid "You don't seem to have a webcam connected."
+msgstr "נראה כי לא מחוברת מצלמת אינטרנט."
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:189
+msgid "Double-check that your webcam is connected and working to continue."
+msgstr "כדי להמשיך, אנא ודא שמצלמת האינטרנט שלך מחוברת ופועלת."
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:337
+msgid "Photo Captured successfully."
+msgstr "התמונה הועברה בהצלחה."
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:378
+msgid "No Flash Detected"
+msgstr "לא אותר התקן פלאש"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:379
+msgid ""
+"You don't seem to have Flash installed. Get Flash to continue your "
+"verification."
+msgstr "נראה כי לא מותקן פלאש. הורד פלאש כדי להמשיך בתהליך האימות."
+
+#: lms/static/js/views/fields.js:37
+msgid "Editable"
+msgstr "ניתן לעריכה"
+
+#: lms/static/js/views/fields.js:47
+msgid "Validation Error"
+msgstr "שגיאת אימות"
+
+#: lms/static/js/views/fields.js:52
+msgid "In Progress"
+msgstr "בביצוע"
+
+#: lms/static/js/views/fields.js:62
+msgid "Placeholder"
+msgstr "מציין מקום"
+
+#: lms/static/js/views/file_uploader.js:84
+msgid "Your upload of '{file}' succeeded."
+msgstr "הקובץ '{file}' נטען בהצלחה."
+
+#: lms/static/js/views/file_uploader.js:109
+msgid "Your upload of '{file}' failed."
+msgstr "העלת קובץ '{file}' נכשלה."
+
+#: lms/static/js/views/image_field.js:16
+msgid "Upload an image"
+msgstr "העלה תמונה"
+
+#: lms/static/js/views/image_field.js:17
+msgid "Change image"
+msgstr "שנה תמונה"
+
+#: lms/static/js/views/image_field.js:24
+msgid "Image"
+msgstr "תמונה"
+
+#: lms/static/js/views/image_field.js:30
+msgid "An error has occurred. Refresh the page, and then try again."
+msgstr "אירעה שגיאה. רענן את העמוד ונסה שוב."
+
+#: lms/static/js/views/image_field.js:171
+msgid "The file must be at least {size} in size."
+msgstr "על גודל הקובץ להיות לפחות {size}."
+
+#: lms/static/js/views/image_field.js:179
+msgid "The file must be smaller than {size} in size."
+msgstr "על גודל הקובץ להיות קטן מ{size}."
+
+#: lms/static/js/views/image_field.js:214
+msgid ""
+"Upload is in progress. To avoid errors, stay on this page until the process "
+"is complete."
+msgstr "העלאה מתבצעת. כדי להימנע משגיאות, הישאר בעמוד זה עד שהתהליך יושלם."
+
+#: lms/static/js/views/image_field.js:216
+msgid ""
+"Removal is in progress. To avoid errors, stay on this page until the process"
+" is complete."
+msgstr "הסרה מתבצעת. כדי להימנע משגיאות, הישאר בעמוד זה עד שהתהליך יושלם."
+
+#: lms/static/js/views/image_field.js:221
+msgid "bytes"
+msgstr "bytes"
+
+#: lms/static/js/views/image_field.js:221
+msgid "KB"
+msgstr "KB"
+
+#: lms/static/js/views/image_field.js:221
+msgid "MB"
+msgstr "MB"
+
+#: lms/static/lms/js/preview/preview_factory.js:13
+msgid "Course is not yet visible to students."
+msgstr "קורס לא גלוי לסטודנטים"
+
+#: lms/static/lms/js/preview/preview_factory.js:24
+msgid ""
+"You cannot view the course as a student or beta tester before the course "
+"release date."
+msgstr "אינך יכול לצפות בקורס זה כסטודנט או משתמש בגרסת הבטא לפני תאריך ההשקה של הקורס."
+
+#: lms/templates/courseware/progress_graph.js:294
+msgid "Overall Score"
+msgstr "ניקוד כללי"
+
+#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:9
+msgid "Bookmark this page"
+msgstr "סמן עמוד זה"
+
+#: openedx/features/course_experience/static/course_experience/js/CourseGoals.js:25
+msgid "Thank you for setting your course goal to {goal}!"
+msgstr "תודה לך על הגדרת יעד הקורס שלך לכדי {goal}!"
+
+#: openedx/features/course_experience/static/course_experience/js/CourseHome.js:84
+msgid "You have successfully updated your goal."
+msgstr "עדכנת את היעד שלך בהצלחה."
+
+#: openedx/features/course_experience/static/course_experience/js/CourseHome.js:89
+msgid "There was an error updating your goal."
+msgstr "אירעה שגיאה בעדכון היעד שלך."
+
+#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js:86
+msgid "Expand All"
+msgstr "הרחב הכל"
+
+#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js:91
+msgid "Collapse All"
+msgstr "כווץ הכל"
+
+#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js:53
+msgid "Show More"
+msgstr "הראה עוד"
+
+#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js:57
+msgid "Show Less"
+msgstr "הראה פחות"
+
+#: openedx/features/course_search/static/course_search/js/views/search_results_view.js:69
+msgid "{total_results} result found for \"{search_term}\""
+msgid_plural "{total_results} results found for \"{search_term}\""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:73
+msgid "Profile Visibility:"
+msgstr "קמפוס IL יכולים לראות את:"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:76
+msgid "Limited Profile"
+msgstr "פרופיל חלקי"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:77
+msgid "Full Profile"
+msgstr "פרופיל מלא"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:117
+msgid "Joined"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:120
+msgid "Joined Date"
+msgstr "הצטרפות בתאריך"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:129
+msgid "Location"
+msgstr "מיקום"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:136
+msgid "Add Country"
+msgstr "הוסף מדינה"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:151
+msgid "Add language"
+msgstr "הוסף שפה"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:164
+msgid "About me"
+msgstr "על עצמי"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:166
+msgid ""
+"Tell other learners a little about yourself: where you live, what your "
+"interests are, why you're taking courses, or what you hope to learn."
+msgstr "ספרו מעט על עצמכם ללומדים האחרים: היכן אתם גרים, מהם תחומי העניין שלכם, מדוע נרשמתם לקורסים או מה אתם מקווים ללמוד"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/badge_list_container.js:23
+msgid "Accomplishments Pagination"
+msgstr "עימוד הישגים"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:38
+msgid "Account Settings page."
+msgstr "עמוד הגדרות חשבון"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:44
+msgid ""
+"You must specify your birth year before you can share your full profile. To "
+"specify your birth year, go to the {account_settings_page_link}"
+msgstr "עליך לציין את שנת הלידה שלך לפני שתוכל לחלוק את הפרופיל המלא שלך. בכדי לציין את שנת הלידה שלך עבור ל{account_settings_page_link}"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:51
+msgid ""
+"You must be over 13 to share a full profile. If you are over 13, make sure "
+"that you have specified a birth year on the {account_settings_page_link}"
+msgstr "עליך להיות מעל גיל 13 כדי לשתף את מידע הפרופיל המלא שלך. אם אתה מעל גיל 13, ודא שציינת את שנת הלידה שלך ב{account_settings_page_link}"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:74
+msgid "Profile Image"
+msgstr "תמונת פרופיל"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:82
+msgid "Profile image for {username}"
+msgstr "תמונת פרופיל עבור {username} "
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:71
+msgid "About Me"
+msgstr "על עצמי"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:74
+msgid "Accomplishments"
+msgstr "הישגים"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:89
+msgid "Profile"
+msgstr "פרופיל"
