@@ -16,7 +16,7 @@ function AuthenticatedUserDropdown(_ref) {
   }, intl.formatMessage(messages.dashboard));
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("a", {
     className: "text-gray-700 mr-3",
-    href: "".concat(getConfig().SUPPORT_URL)
+    href: "".concat(process.env.WORDPRESS_ROOT, "/supportus")
   }, intl.formatMessage(messagesCommon['header.links.support'])), /*#__PURE__*/React.createElement(Dropdown, {
     className: "user-dropdown"
   }, /*#__PURE__*/React.createElement(Dropdown.Toggle, {
