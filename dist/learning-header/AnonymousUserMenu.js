@@ -14,19 +14,19 @@ function AnonymousUserMenu(_ref) {
     content: intl.formatMessage(sharedMessages['header.links.courses'])
   }, {
     type: 'item',
-    href: "".concat(process.env.WORDPRESS_ROOT, "/about"),
+    href: "https://madrasafree.com/about",
     content: intl.formatMessage(sharedMessages['header.links.about'])
   }, {
     type: 'item',
-    href: "".concat(process.env.WORDPRESS_ROOT, "/library"),
+    href: "https://madrasafree.com/library",
     content: intl.formatMessage(sharedMessages['header.links.library'])
   }, {
     type: 'item',
-    href: "".concat(process.env.WORDPRESS_ROOT, "/supportus"),
+    href: "https://madrasafree.com/supportus",
     content: intl.formatMessage(sharedMessages['header.links.support'])
   }, {
     type: 'item',
-    href: "".concat(process.env.WORDPRESS_ROOT, "/contact"),
+    href: "https://madrasafree.com/contact",
     content: intl.formatMessage(sharedMessages['header.links.contactUs'])
   }];
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Button, {

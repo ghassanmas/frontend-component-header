@@ -6,7 +6,7 @@ import { APP_CONFIG_INITIALIZED, ensureConfig, mergeConfig, getConfig, subscribe
 import DesktopHeader from './DesktopHeader';
 import MobileHeader from './MobileHeader';
 import messages from './Header.messages';
-ensureConfig(['LMS_BASE_URL', 'LOGOUT_URL', 'LOGIN_URL', 'SITE_NAME', 'LOGO_URL', 'ORDER_HISTORY_URL', 'WORDPRESS_ROOT'], 'Header component');
+ensureConfig(['LMS_BASE_URL', 'LOGOUT_URL', 'LOGIN_URL', 'SITE_NAME', 'LOGO_URL', 'ORDER_HISTORY_URL'], 'Header component');
 subscribe(APP_CONFIG_INITIALIZED, function () {
   mergeConfig({
     AUTHN_MINIMAL_HEADER: !!process.env.AUTHN_MINIMAL_HEADER
@@ -27,19 +27,19 @@ function Header(_ref) {
     content: intl.formatMessage(messages['header.links.courses'])
   }, {
     type: 'item',
-    href: "".concat(process.env.WORDPRESS_ROOT, "/about"),
+    href: "https://madrasafree.com//about",
     content: intl.formatMessage(messages['header.links.about'])
   }, {
     type: 'item',
-    href: "".concat(process.env.WORDPRESS_ROOT, "/library"),
+    href: "https://madrasafree.com/library",
     content: intl.formatMessage(messages['header.links.library'])
   }, {
     type: 'item',
-    href: "".concat(process.env.WORDPRESS_ROOT, "/supportus"),
+    href: "https://madrasafree.com/supportus",
     content: intl.formatMessage(messages['header.links.support'])
   }, {
     type: 'item',
-    href: "".concat(process.env.WORDPRESS_ROOT, "/contact"),
+    href: "https://madrasafree.com/contact",
     content: intl.formatMessage(messages['header.links.contactUs'])
   }];
   var orderHistoryItem = {
