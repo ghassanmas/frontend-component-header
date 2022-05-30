@@ -6,4 +6,3 @@ temp
 src/i18n/transifex_input.json
 module.config.js
 .idea/
-dist

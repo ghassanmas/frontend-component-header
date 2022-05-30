@@ -22,7 +22,6 @@ ensureConfig([
   'SITE_NAME',
   'LOGO_URL',
   'ORDER_HISTORY_URL',
-  'WORDPRESS_ROOT'
 ], 'Header component');
 
 subscribe(APP_CONFIG_INITIALIZED, () => {
@@ -43,22 +42,22 @@ function Header({ intl }) {
     },
     {
       type: 'item',
-      href: `${process.env.WORDPRESS_ROOT}/about`,
+      href: `https://madrasafree.com//about`,
       content: intl.formatMessage(messages['header.links.about']),
     },
     {
       type: 'item',
-      href: `${process.env.WORDPRESS_ROOT}/library`,
+      href: `https://madrasafree.com/library`,
       content: intl.formatMessage(messages['header.links.library']),
     },
     {
       type: 'item',
-      href: `${process.env.WORDPRESS_ROOT}/supportus`,
+      href: `https://madrasafree.com/supportus`,
       content: intl.formatMessage(messages['header.links.support']),
     },
     {
       type: 'item',
-      href: `${process.env.WORDPRESS_ROOT}/contact`,
+      href: `https://madrasafree.com/contact`,
       content: intl.formatMessage(messages['header.links.contactUs']),
     },
 

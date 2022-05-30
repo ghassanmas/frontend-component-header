@@ -17,22 +17,22 @@ function AnonymousUserMenu({ intl }) {
     },
     {
       type: 'item',
-      href: `${process.env.WORDPRESS_ROOT}/about`,
+      href: `https://madrasafree.com/about`,
       content: intl.formatMessage(sharedMessages['header.links.about']),
     },
     {
       type: 'item',
-      href: `${process.env.WORDPRESS_ROOT}/library`,
+      href: `https://madrasafree.com/library`,
       content: intl.formatMessage(sharedMessages['header.links.library']),
     },
     {
       type: 'item',
-      href: `${process.env.WORDPRESS_ROOT}/supportus`,
+      href: `https://madrasafree.com/supportus`,
       content: intl.formatMessage(sharedMessages['header.links.support']),
     },
     {
       type: 'item',
-      href: `${process.env.WORDPRESS_ROOT}/contact`,
+      href: `https://madrasafree.com/contact`,
       content: intl.formatMessage(sharedMessages['header.links.contactUs']),
     },
 
